@@ -249,7 +249,7 @@ class JointDistribution:
 
     
 
-    def draw(self, n: int, redraw: bool = True) -> pd.DataFrame:
+    def draw(self, n: int, redraw: bool = True, verbose: bool= True) -> pd.DataFrame:
         """Draws samples from all stored Distribution objects.
 
         If a Constraint is present, the constraint is applied and samples are rejected

@@ -8,9 +8,8 @@ import pandas as pd
 from ..config import parse_config
 
 # custom transforms dictionary
-# from .sigmasq import SigmaSqTransform
-# transforms = {SigmaSqTransform.transform: SigmaSqTransform}
-transforms: Dict[str, Any] = {}
+from .sigmasq import SigmaSqTransform
+transforms = {SigmaSqTransform.transform: SigmaSqTransform}
 
 logger = logging.getLogger(__name__)
 
