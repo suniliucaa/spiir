@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>spiir.workflow package &mdash; SPIIR 0.0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script src="_static/toggleprompt.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Data Generation" href="data_generation.html" />
+    <link rel="prev" title="spiir.search.p_astro.models package" href="spiir.search.p_astro.models.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> SPIIR
+          </a>
+              <div class="version">
+                0.0.1
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Modules</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="spiir.html">spiir package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="spiir.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="spiir.distribution.html">spiir.distribution package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="spiir.io.html">spiir.io package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="spiir.search.html">spiir.search package</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">spiir.workflow package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="spiir.html#module-spiir">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">User Guides</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="data_generation.html">Data Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="iir_filters.html">IIR Filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ligolw.html">LIGO Light-Weight</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">SPIIR</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="modules.html">spiir</a> &raquo;</li>
+          <li><a href="spiir.html">spiir package</a> &raquo;</li>
+      <li>spiir.workflow package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/spiir.workflow.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="spiir-workflow-package">
+<h1>spiir.workflow package<a class="headerlink" href="#spiir-workflow-package" title="Permalink to this heading"></a></h1>
+<section id="module-spiir.workflow.analysis">
+<span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-spiir.workflow.analysis" title="Permalink to this heading"></a></h2>
+<p>Data analysis module for the SPIIR search pipeline.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.workflow.analysis.match_coincident_zerolags">
+<span class="sig-prename descclassname"><span class="pre">spiir.workflow.analysis.</span></span><span class="sig-name descname"><span class="pre">match_coincident_zerolags</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">zerolags</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">injections</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_far</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0.0001</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_cmbchisq</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">3.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mchirp_percentage</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0.1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_interval</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0.9</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">chunk_size</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tie_break</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">DataFrame</span></span></span><a class="headerlink" href="#spiir.workflow.analysis.match_coincident_zerolags" title="Permalink to this definition"></a></dt>
+<dd><p>Matches zerolags found by the pipeline that are coincident with an injection set.</p>
+<p>Compares a DataFrame or candidate zerolags found by the search pipeline and
+compares  them against a DataFrame of signal injections that have been injected
+into the same strain the pipeline has searched over. If a trigger is considered to
+be statistically significant (i.e within a maximum false alarm rate and combined
+Chi squared value) and within some bounds of the parameter space similar to a
+given injection (i.e. chirp mass and detection gps time), then we can consider the
+trigger to be coincident with the injection. In other words, we can claim that the
+search pipeline has successfully recovered an injection.</p>
+<p>If there are multiple zerolags that match with an injection given the conditions
+provided, then we select the zerolag that has the maximum coherent SNR by default.
+However, the tie_break argument allows the user to specify how a tie break is
+implemented with other column data, or whether any tie break is implemented at all.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>zerolags</strong> (<em>pd.DataFrame</em>) – A DataFrame of zerolags detected by the pipeline, typically sourced from entries
+in a LIGOLW PostcohInspiralTable object, csv file, or similar.</p></li>
+<li><p><strong>injections</strong> (<em>pd.DataFrame</em>) – A DataFrame of the known injection set added to the searched strain.</p></li>
+<li><p><strong>max_far</strong> (<em>float</em>) – The maximum false alarm rate threshold for statistical significance.</p></li>
+<li><p><strong>max_cmbchisq</strong> (<em>float</em>) – The maximum combined Chi squared threshold for statistical significance.</p></li>
+<li><p><strong>mchirp_percentage</strong> (<em>float</em>) – The maximum bounds allowed for the chirp mass range between zerolag and
+injection as a percentage. For example 0.1 corresponds to ±10%, and so we say a
+trigger matches if it’s chirp is within 90% to 110% of the injection chirp mass.</p></li>
+<li><p><strong>time_interval</strong> (<em>float</em>) – The maximum bounds allowed for the gps time between zerolag and injection in
+seconds. For example, 0.5 corresponds to ±0.5 seconds from the injection time.</p></li>
+<li><p><strong>chunk_size</strong> (<em>int</em><em> | </em><em>None</em>) – If not None, breaks the array processing into intermediate chunks of size
+chunk_size to constrain maximum memory usage. Otherwise processes all at once.</p></li>
+<li><p><strong>verbose</strong> (<em>bool</em>) – Whether to enable verbose output for processing progress bars.</p></li>
+<li><p><strong>tie_break</strong> (<em>str</em><em> | </em><em>None</em>) – If tie_break is not None, then for duplicate matching zerolags, this function
+will match on the <em>max</em> values as specified by the provided column string.
+Otherwise if tie_break is None, all potentially matching zerolags are returned.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A DataFrame of all zerolags with a column specifying the matched injection idx.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>pd.DataFrame</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>AttributeError</strong> – If required columns are missing from either the <cite>zerolags</cite> or <cite>injections</cite>
+    dataframes, then an AttributeError will be raised.</p></li>
+<li><p><strong>TypeError</strong> – If tie_break is provided but it is not a str else a TypeError will be raised.</p></li>
+<li><p><strong>ValueError</strong> – If chunk_size is not a positive integer then a ValueError will be raised.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<p>Suppose we would like to find candidate foreground signals in a collection of
+zerolags where we have a known injection set. We can tie break on “cohsnr” with:</p>
+<blockquote>
+<div><p>&gt;&gt; match_coincident_zerolags(zerolags, injections, tie_break=”cohsnr”)</p>
+</div></blockquote>
+</dd></dl>
+
+<span class="target" id="module-spiir.workflow.visualisation"></span><p>Module for common plotting functions used to visualise SPIIR pipeline results.</p>
+<p>Note that all functions in this module are currently placeholders and will be subject
+to significant changes in the near future.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.workflow.visualisation.plot_skymap_from_fits">
+<span class="sig-prename descclassname"><span class="pre">spiir.workflow.visualisation.</span></span><span class="sig-name descname"><span class="pre">plot_skymap_from_fits</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">contours</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">inset_args</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ground_truth</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">SkyCoord</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">annotate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">figsize</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">(16,</span> <span class="pre">7)</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Figure</span></span></span><a class="headerlink" href="#spiir.workflow.visualisation.plot_skymap_from_fits" title="Permalink to this definition"></a></dt>
+<dd><p>Plots a detailed probability skymap from a FITS file.</p>
+<dl class="simple">
+<dt>TODO:</dt><dd><ul class="simple">
+<li><p>Implement automatic inset axis sizing and ordering based on ra / dec.</p></li>
+<li><p>Ensure logic works for greater than two inset axes.</p></li>
+<li><p>Test various figsizes to ensure figure is consistently formatted.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>path</strong> (<em>str</em><em> | </em><em>bytes</em><em> | </em><em>os.PathLike</em>) – A path to a valid FITS file, typically generated from ligo.skymap.io.fits.</p></li>
+<li><p><strong>contours</strong> (<em>float</em><em> | </em><em>Sequence</em><em>[</em><em>float</em><em>] </em><em>| </em><em>None</em>) – A sequence of probability contour levels (credible intervals) used to draw on
+the skymap. For example, (0.5, 0.9) would correspond to the 50% and 90% levels.</p></li>
+<li><p><strong>inset_kwargs</strong> (<em>dict</em><em> | </em><em>Sequence</em><em>[</em><em>dict</em><em>] </em><em>| </em><em>None</em>) – A set of keyword arguments passed used to define one or more inset skymap axes.
+If a sequence of argument dicts are provided, one inset axis is made for each
+element of the list. At a minimum, each must have a ‘center’ key with a valid
+astropy.coordinates.SkyCoord to center the inset axis on the skymap canvas.</p></li>
+<li><p><strong>ground_truth</strong> (<em>astropy.coordinates.Skycoord</em><em> | </em><em>None</em>) – An astropy SkyCoord input for a “ground truth” marker for the true location.</p></li>
+<li><p><strong>annotate</strong> (<em>bool</em>) – Whether to annotate the plot with information about additional metadata such as
+the LIGOLW event id and the probability per square degree.</p></li>
+<li><p><strong>figsize</strong> (<em>tuple</em><em>[</em><em>float</em><em>, </em><em>float</em><em>] </em><em>| </em><em>None</em>) – An optional tuple specifying the figure size. Default is (16, 7).</p></li>
+<li><p><strong>title</strong> (<em>str</em><em> | </em><em>None</em>) – An optional string specifying the figure title.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The probability skymap as a matplotlib Figure object.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>matplotlib.figure.Figure</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.workflow.visualisation.save_background_analysis_plots">
+<span class="sig-prename descclassname"><span class="pre">spiir.workflow.visualisation.</span></span><span class="sig-name descname"><span class="pre">save_background_analysis_plots</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">DataFrame</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.workflow.visualisation.save_background_analysis_plots" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.workflow.visualisation.save_foreground_analysis_plots">
+<span class="sig-prename descclassname"><span class="pre">spiir.workflow.visualisation.</span></span><span class="sig-name descname"><span class="pre">save_foreground_analysis_plots</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">DataFrame</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.workflow.visualisation.save_foreground_analysis_plots" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.workflow.visualisation.save_zerolag_trigger_plots">
+<span class="sig-prename descclassname"><span class="pre">spiir.workflow.visualisation.</span></span><span class="sig-name descname"><span class="pre">save_zerolag_trigger_plots</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">DataFrame</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.workflow.visualisation.save_zerolag_trigger_plots" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-spiir.workflow">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-spiir.workflow" title="Permalink to this heading"></a></h2>
+<p>A work-in-progress subpackage providing common tools for SPIIR R&amp;D workflows.</p>
+<p>This subpackage intends to define a collect of convenience functions and classes for
+the analysis and visualisation of research results produced by the SPIIR gravitational
+wave search pipeline.</p>
+<p>At present, additional work must be done in order to streamline the end-to-end analysis
+workflow of producing and processing data that may vary between sources (such as
+zerolags, injection data sets). As an example, functions should be careful to assume
+specific column names for input dataframes that are not controlled directly by the
+SPIIR pipeline. Alternatively, if the data is sourced from the SPIIR pipeline itself,
+this codebase will have to be kept up to date in lock step with any schema changes made
+to the pipeline data outputs as well, which introduces its own challenges as well.</p>
+<p>For this reason, a number of these functions and classes will be subject to change as
+this library structure as well as pipeline functionality changes considerably before O4.
+We recommend users use the code in this subpackage at their own risk as things may
+change without warning.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="spiir.search.p_astro.models.html" class="btn btn-neutral float-left" title="spiir.search.p_astro.models package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="data_generation.html" class="btn btn-neutral float-right" title="Data Generation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Daniel Tang.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

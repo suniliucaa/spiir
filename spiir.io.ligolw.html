@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>spiir.io.ligolw package &mdash; SPIIR 0.0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script src="_static/toggleprompt.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="spiir.search package" href="spiir.search.html" />
+    <link rel="prev" title="spiir.io.igwn.consumers package" href="spiir.io.igwn.consumers.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> SPIIR
+          </a>
+              <div class="version">
+                0.0.1
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Modules</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="spiir.html">spiir package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="spiir.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="spiir.distribution.html">spiir.distribution package</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="spiir.io.html">spiir.io package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="spiir.search.html">spiir.search package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="spiir.workflow.html">spiir.workflow package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="spiir.html#module-spiir">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">User Guides</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="data_generation.html">Data Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="iir_filters.html">IIR Filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ligolw.html">LIGO Light-Weight</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">SPIIR</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="modules.html">spiir</a> &raquo;</li>
+          <li><a href="spiir.html">spiir package</a> &raquo;</li>
+          <li><a href="spiir.io.html">spiir.io package</a> &raquo;</li>
+      <li>spiir.io.ligolw package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/spiir.io.ligolw.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="spiir-io-ligolw-package">
+<h1>spiir.io.ligolw package<a class="headerlink" href="#spiir-io-ligolw-package" title="Permalink to this heading"></a></h1>
+<section id="module-spiir.io.ligolw.array">
+<span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-spiir.io.ligolw.array" title="Permalink to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.array.append_array_to_xmldoc">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.array.</span></span><span class="sig-name descname"><span class="pre">append_array_to_xmldoc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">array</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Array</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">overwrite</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.io.ligolw.array.append_array_to_xmldoc" title="Permalink to this definition"></a></dt>
+<dd><p>Writes the given LIGO_LW array into a LIGO_LW XML document.</p>
+<p>This code is based on gwpy.io.table.py.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code>) – the document to write into</p></li>
+<li><p><strong>array</strong> (<cite>list</cite> of <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code>) – the set of arrays to write</p></li>
+<li><p><strong>overwrite</strong> (<cite>bool</cite>, optional, default: <cite>True</cite>) – if <cite>True</cite>, delete an all existing instances matching the provided array name,
+else append the array to the document as is.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.array.append_psd_series_to_ligolw">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.array.</span></span><span class="sig-name descname"><span class="pre">append_psd_series_to_ligolw</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">psds</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">Series</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ndarray</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">f0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">delta_f</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">epoch_time</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">LIGOTimeGPS</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0.0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Document</span></span></span><a class="headerlink" href="#spiir.io.ligolw.array.append_psd_series_to_ligolw" title="Permalink to this definition"></a></dt>
+<dd><p>Assembles and append a LIGO_LW REAL8FreqencySeries array to a LIGO_LW XML.</p>
+<p>The LIGO_LW REAL8FrequencySeries Array is assembled from a dictionary where keys
+are ifo strings and values are the PSD as aa np.ndarray or pd.Series for each ifo.
+The PSD LIGO_LW element will be appended to the xmldoc containing both a
+REAL8FrequencySeries Array object and a Param object that specifies the ifo string.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>psds</strong> (dict[str, <code class="xref py py-class docutils literal notranslate"><span class="pre">Series</span></code> | <code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code>]) – A dictionary of frequency series that refer to the PSD for each ifo.</p></li>
+<li><p><strong>f0</strong> (<em>float</em><em>, </em><em>default: 0.</em>) – The lower bound minimum frequency considered during analysis of the strain.</p></li>
+<li><p><strong>delta_f</strong> (<em>float</em><em>, </em><em>optional</em>) – The increment between each frequency bin of the array (the index) of the PSD.</p></li>
+<li><p><strong>epoch_time</strong> (float | <code class="xref py py-class docutils literal notranslate"><span class="pre">LIGOTimeGPS</span></code>, default: 0.) – The GPS epoch time at the time the estimated PSD was calculated.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The LIGO_LW XML Document element with the LIGO_LW PSD element attached.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.array.append_snr_series_to_ligolw">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.array.</span></span><span class="sig-name descname"><span class="pre">append_snr_series_to_ligolw</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snr</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">ndarray</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Series</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ifo</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">f0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">delta_t</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">event_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">epoch_time</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">LIGOTimeGPS</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Document</span></span></span><a class="headerlink" href="#spiir.io.ligolw.array.append_snr_series_to_ligolw" title="Permalink to this definition"></a></dt>
+<dd><p>Assembles and append a LIGO_LW COMPLEX8TimeSeries array to a LIGO_LW XML.</p>
+<p>The LIGO_LW COMPLEX8TimeSeries Array is assembled from a np.ndarray or pd.Series
+that defines the SNR series and an ifo string that specifies the interfereometer.
+The SNR LIGO_LW element will be appended to the xmldoc containing both a
+COMPLEX8TimeSeries Array object and a Param object that specifies an event_id that
+maps to a corresponding sngl_inspiral table row in an LIGO_LW Table element.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code>) – A valid LIGO_LW XML Document element with a sngl_inspiral table element.</p></li>
+<li><p><strong>snr</strong> (dict[str, <code class="xref py py-class docutils literal notranslate"><span class="pre">Series</span></code> | <code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code>]) – A dictionary of the complex time series that refers to the SNR for an ifo.</p></li>
+<li><p><strong>ifo</strong> (<em>str</em>) – The name of the interferometer as a string, e.g. H1, L1, V1, or K1.</p></li>
+<li><p><strong>f0</strong> (<em>float</em><em>, </em><em>default: 0.</em>) – The lower bound minimum frequency considered during analysis of the strain.</p></li>
+<li><p><strong>delta_t</strong> (<em>float</em><em>, </em><em>optional</em>) – The increment between each time bin of the array (the index) of the SNR series.</p></li>
+<li><p><strong>event_id</strong> (<em>int</em><em>, </em><em>optional</em>) – An id that maps to an event_id of a sngl_inspiral table row of the LIGO_LW XML.</p></li>
+<li><p><strong>epoch_time</strong> (float | <code class="xref py py-class docutils literal notranslate"><span class="pre">LIGOTimeGPS</span></code>, default: 0.) – The GPS epoch time at the time the estimated SNR was calculated.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The LIGO_LW XML Document element with the LIGO_LW PSD element attached.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.array.build_array_element">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.array.</span></span><span class="sig-name descname"><span class="pre">build_array_element</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">array</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dim_names</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Array</span></span></span><a class="headerlink" href="#spiir.io.ligolw.array.build_array_element" title="Permalink to this definition"></a></dt>
+<dd><p>Convenience function to build a LIGO_LW Array element.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.array.build_psd_series_from_xmldoc">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.array.</span></span><span class="sig-name descname"><span class="pre">build_psd_series_from_xmldoc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Series</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.io.ligolw.array.build_psd_series_from_xmldoc" title="Permalink to this definition"></a></dt>
+<dd><p>Reads a valid LIGO_LW XML Document from memory and returns a dictionary of
+pd.Series containing a REAL8FrequencySeries array for each frequency series present.</p>
+<p>The LIGO_LW Document should contain exactly one LIGO_LW REAL8FrequencySeries
+element per interferometer each as an Array element. Each REAL8FrequencySeries is
+paired with an instrument string corresponding to the interferometer name.</p>
+<p>The returned dictionary has keys describing each interferometer name, with each
+value being a frequency array with an index specifying its frequency bins. Each
+array is indexed separately to handle the case where each frequency array
+may not have matching resolutions (i.e. PSDs may not have matching frequency
+components recorded), but if they are the same they can simply be concatenated.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>xmldoc</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code>) – A LIGO_LW XML Document element, containing the necessary PSD array elements.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary of pd.Series where the key refers to the interferometer name,
+and the values contain the respective real-valued frequency array.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, <code class="xref py py-class docutils literal notranslate"><span class="pre">Series</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.array.build_snr_series_from_xmldoc">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.array.</span></span><span class="sig-name descname"><span class="pre">build_snr_series_from_xmldoc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">add_epoch_time</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Series</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.io.ligolw.array.build_snr_series_from_xmldoc" title="Permalink to this definition"></a></dt>
+<dd><p>Reads a valid LIGO_LW XML Document from a ligo.lw.ligolw.Document object and
+returns a dictionary containing the complex SNR timeseries arrays associated with
+each interferometer (‘ifo’).</p>
+<p>The LIGO_LW Document must contain exactly one ligo.lw.lsctables.SnglInspiralTable
+and at least one LIGO_LW COMPLEX8TimeSeries element containing the timeseries as an
+Array named snr:array. Each row in the SnglInspiralTable should be matched to a
+corresponding COMPLEX8TimeSeries by an event_id:param, but we discard this event_id
+in the returned Series and replace it with the interferometer name as a string.</p>
+<p>The returned Series has columns describing each interferometer name, an
+index specifying the timestamp, and values that define the complex SNR time series.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code>) – A LIGO_LW XML Document element containing the necessary SNR series elements.</p></li>
+<li><p><strong>add_epoch_time</strong> (bool, default: <cite>True</cite>) – If True, adds the GPS epoch time to the SNR series for correct timestamps.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary of pd.Series where the key refers to the sngl_inspiral ifo,
+and the values contain the respective SNR timeseries array
+(each with their own timestamped indices).</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, <code class="xref py py-class docutils literal notranslate"><span class="pre">Series</span></code>]</p>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<p>The true starting epoch GPS time is added to the index values of each
+pd.Series as each SNR timeseries array may not perfectly align with another.
+To undo this addition and reset all arrays to index starting from 0, simply
+subtract the first element of the pd.Series index from every element for each
+SNR series respectively.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.array.get_array_from_xmldoc">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.array.</span></span><span class="sig-name descname"><span class="pre">get_array_from_xmldoc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">array</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#spiir.io.ligolw.array.get_array_from_xmldoc" title="Permalink to this definition"></a></dt>
+<dd><p>Retrieves a numpy array from a provided LIGO_LW Document element in memory.</p>
+<p>This is a wrapper function around the ligo.lw.array.Array.get_array class method,
+made primarily for convenience.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code>) – A valid LIGO_LW XML Document element that contains Array element(s).</p></li>
+<li><p><strong>array</strong> (<em>str</em>) – The array to retrieve from the XML Document element.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A numpy array loaded from the LIGO_LW xmldoc array.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>np.ndarray</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.array.get_arrays_from_xmldoc">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.array.</span></span><span class="sig-name descname"><span class="pre">get_arrays_from_xmldoc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arrays</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ndarray</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.io.ligolw.array.get_arrays_from_xmldoc" title="Permalink to this definition"></a></dt>
+<dd><p>Retrieves numpy arrays from a provided LIGO_LW xmldoc object in memory.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code>) – A valid LIGO_LW XML Document element that contains Array element(s).</p></li>
+<li><p><strong>arrays</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Sequence[str]</span></code>, optional) – If provided, retrieve the specified arrays by their name.
+Otherwise if arrays is None, retrieve all arrays from the xmldoc object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary where keys are array names are values are the numpy arrays.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, np.ndarray]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.array.load_array_from_xml">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.array.</span></span><span class="sig-name descname"><span class="pre">load_array_from_xml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">array</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ilwdchar_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#spiir.io.ligolw.array.load_array_from_xml" title="Permalink to this definition"></a></dt>
+<dd><p>Loads one array from one LIGO_LW XML file path and returns a numpy array.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code>) – A valid LIGO_LW XML Document element that contains Array element(s).</p></li>
+<li><p><strong>array</strong> (<em>str</em>) – The array to retrieve from the XML Document element.</p></li>
+<li><p><strong>ilwdchar_compat</strong> (bool, default: <cite>True</cite>) – Whether to add ilwdchar conversion compatibility.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A numpy array loaded from the LIGO_LW xmldoc array.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>np.ndarray</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.array.load_arrays_from_xml">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.array.</span></span><span class="sig-name descname"><span class="pre">load_arrays_from_xml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arrays</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ilwdchar_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ndarray</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.io.ligolw.array.load_arrays_from_xml" title="Permalink to this definition"></a></dt>
+<dd><p>Loads one array from one LIGO_LW XML file path and returns a numpy array.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code>) – A valid LIGO_LW XML Document element that contains Array element(s).</p></li>
+<li><p><strong>arrays</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Sequence[str]</span></code>, optional) – If provided, retrieve the specified arrays by their name.
+Otherwise if arrays is None, retrieve all arrays from the xmldoc object.</p></li>
+<li><p><strong>ilwdchar_compat</strong> (bool, default: <cite>True</cite>) – Whether to add ilwdchar conversion compatibility.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary where keys are array names are values are the numpy arrays.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, <code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.array.load_arrays_from_xmls">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.array.</span></span><span class="sig-name descname"><span class="pre">load_arrays_from_xmls</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">paths</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arrays</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ilwdchar_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skip_exceptions</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nproc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ndarray</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.io.ligolw.array.load_arrays_from_xmls" title="Permalink to this definition"></a></dt>
+<dd><p>Loads one or more arrays from one LIGO_LW XML file path and returns a dictionary
+of numpy arrays that have been stacked together.</p>
+<p>Note that each XML file must have the same set of arrays present in each document.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code>) – A valid LIGO_LW XML Document element that contains Array element(s).</p></li>
+<li><p><strong>arrays</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Sequence[str]</span></code>, optional) – If provided, retrieve the specified arrays by their name.
+Otherwise if arrays is None, retrieve all arrays from the xmldoc object.</p></li>
+<li><p><strong>ilwdchar_compat</strong> (bool, default: <cite>True</cite>) – Whether to add ilwdchar conversion compatibility.</p></li>
+<li><p><strong>skip_exceptions</strong> (<em>bool</em>) – If True, exceptions raised by a process during mulitprocessing will be ignored.</p></li>
+<li><p><strong>nproc</strong> (<em>int</em><em>, </em><em>default: 1</em>) – Number of CPU processes to use for multiprocessing. Default: 1, recommended: 4.</p></li>
+<li><p><strong>verbose</strong> (bool, default: <cite>True</cite>) – If True, displays a loading progress bar.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary where keys are array names are values are the numpy arrays.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, <code class="xref py py-class docutils literal notranslate"><span class="pre">ndarray</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.array.load_psd_series_from_xml">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.array.</span></span><span class="sig-name descname"><span class="pre">load_psd_series_from_xml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ilwdchar_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Series</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.io.ligolw.array.load_psd_series_from_xml" title="Permalink to this definition"></a></dt>
+<dd><p>Reads a valid LIGO_LW XML Document from a file path and returns a dictionary of
+pd.Series containing a REAL8FrequencySeries array for each frequency series present.</p>
+<p>The LIGO_LW Document should contain exactly one LIGO_LW REAL8FrequencySeries
+element per interferometer each as an Array element. Each REAL8FrequencySeries is
+paired with an instrument string corresponding to the interferometer name.</p>
+<p>The returned dictionary has keys describing each interferometer name, with each
+value being a frequency array with an index specifying its frequency bins. Each
+array is indexed separately to handle the case where each frequency array
+may not have matching resolutions (i.e. PSDs may not have matching frequency
+components recorded), but if they are the same they can simply be concatenated.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>path</strong> (str | bytes | <code class="xref py py-class docutils literal notranslate"><span class="pre">PathLike</span></code>) – A path-like to an XML file containing a valid LIGO_LW XML Document.</p></li>
+<li><p><strong>ilwdchar_compat</strong> (bool, default: <cite>True</cite>) – Whether to add ilwdchar conversion compatibility.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary of pd.Series where the key refers to the interferometer name,
+and the values contain the respective real-valued frequency array.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, <code class="xref py py-class docutils literal notranslate"><span class="pre">Series</span></code>]</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<p>The following code snippet will load a coinc.xml file and return a pd.DataFrame.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">psds</span> <span class="o">=</span> <span class="n">load_all_ligolw_frequency_arrays</span><span class="p">(</span><span class="s2">&quot;coinc.xml&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">psds</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">psds</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.array.load_snr_series_from_xml">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.array.</span></span><span class="sig-name descname"><span class="pre">load_snr_series_from_xml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">add_epoch_time</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ilwdchar_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Series</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.io.ligolw.array.load_snr_series_from_xml" title="Permalink to this definition"></a></dt>
+<dd><p>Reads a valid LIGO_LW XML Document from a file path and returns a dictionary
+containing the complex SNR timeseries arrays associated with each interferometer.</p>
+<p>The LIGO_LW Document must contain exactly one ligo.lw.lsctables.SnglInspiralTable
+and at least one LIGO_LW COMPLEX8TimeSeries element containing the timeseries as an
+Array named snr:array. Each row in the SnglInspiralTable should be matched to a
+corresponding COMPLEX8TimeSeries by an event_id:param, but we discard this event_id
+in the returned Series and replace it with the interferometer name as a string.</p>
+<p>The returned Series has columns describing each interferometer name, an index
+specifying the timestamp, and values that define the complex SNR time series array.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>path</strong> (str | bytes | <code class="xref py py-class docutils literal notranslate"><span class="pre">PathLike</span></code>) – A path-like to an XML file containing a valid LIGO_LW XML Document.</p></li>
+<li><p><strong>add_epoch_time</strong> (bool, default: <cite>True</cite>) – Whether to add the epoch time to each SNR series array for correct timestamps.</p></li>
+<li><p><strong>ilwdchar_compat</strong> (bool, default: <cite>True</cite>) – Whether to add ilwdchar conversion compatibility.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary of pd.Series where the key refers to the sngl_inspiral ifo,
+and the values contain the respective SNR timeseries array
+(each with their own timestamped indices).</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, <code class="xref py py-class docutils literal notranslate"><span class="pre">Series</span></code>]</p>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<p>The true starting epoch GPS time is added to the index values of each
+pd.Series as each SNR timeseries array may not perfectly align with another.
+To undo this addition and reset all arrays to index starting from 0, simply
+subtract the first element of the pd.Series index from every element for each
+SNR series respectively.</p>
+</dd></dl>
+
+<span class="target" id="module-spiir.io.ligolw.coinc"></span><p>Module to handle reading and writing standard LIGO_LW candidate event files.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.coinc.load_coinc_xml">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.coinc.</span></span><span class="sig-name descname"><span class="pre">load_coinc_xml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">DataFrame</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Series</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.io.ligolw.coinc.load_coinc_xml" title="Permalink to this definition"></a></dt>
+<dd><p>Loads the data from a standard coinc.xml LIGO_LW XML file.</p>
+<p>This function returns the standard tables, arrays, and parameters that are
+expected in the coinc.xml and returns them as either a pd.DataFrame (tables), a
+pd.Series (LIGO_LW Series arrays, such as PSDs and SNRs), or a dictionary (p_astro
+probabilites), if they exist in the file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> (<em>str</em><em> | </em><em>bytes</em><em> | </em><em>os.PathLike</em>) – The path to the coinc.xml file.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary corresponding to the LIGO_LW data elements present in the file.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, pd.DataFrame | pd.Series | dict[str, float]]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.coinc.save_coinc_xml">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.coinc.</span></span><span class="sig-name descname"><span class="pre">save_coinc_xml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tables</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">DataFrame</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">psds</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Series</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snrs</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Series</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p_astro</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.io.ligolw.coinc.save_coinc_xml" title="Permalink to this definition"></a></dt>
+<dd><p>Loads the data from a standard coinc.xml LIGO_LW XML file.</p>
+<p>This function returns the standard tables, arrays, and parameters that are
+expected in the coinc.xml and returns them as either a pd.DataFrame (tables), a
+pd.Series (LIGO_LW Series arrays, such as PSDs and SNRs), or a dictionary (p_astro
+probabilites), if they exist in the file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>path</strong> (<em>str</em><em> | </em><em>bytes</em><em> | </em><em>os.PathLike</em>) – The path to write the coinc.xml file.</p></li>
+<li><p><strong>tables</strong> (<em>dict</em><em>[</em><em>str</em><em>, </em><em>pd.DataFrame</em><em>]</em>) – A dictionary containing each of the LIGO_LW XML table elements.</p></li>
+<li><p><strong>psds</strong> (<em>dict</em><em>[</em><em>str</em><em>, </em><em>pd.Series</em><em>] </em><em>| </em><em>None</em>) – An optional dictionary of pd.Series corresponding to the PSDs for each ifo.</p></li>
+<li><p><strong>snrs</strong> (<em>dict</em><em>[</em><em>str</em><em>, </em><em>pd.Series</em><em>] </em><em>| </em><em>None</em>) – An optional dictionary of pd.Series corresponding to the SNRs for each ifo.</p></li>
+<li><p><strong>p_astro</strong> (<em>dict</em><em>[</em><em>str</em><em>, </em><em>float</em><em>] </em><em>| </em><em>None</em>) – An optional dictionary of source probabilities for the coincident inspiral.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary corresponding to the LIGO_LW data elements present in the file.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, pd.DataFrame | pd.Series | dict[str, float]]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-spiir.io.ligolw.ligolw"></span><dl class="py class">
+<dt class="sig sig-object py" id="spiir.io.ligolw.ligolw.LIGOLWContentHandler">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.ligolw.</span></span><span class="sig-name descname"><span class="pre">LIGOLWContentHandler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_handlers</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">{}</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.io.ligolw.ligolw.LIGOLWContentHandler" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">LIGOLWContentHandler</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.io.ligolw.ligolw.LIGOLWContentHandler.startArray">
+<span class="sig-name descname"><span class="pre">startArray</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attrs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.io.ligolw.ligolw.LIGOLWContentHandler.startArray" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.io.ligolw.ligolw.LIGOLWContentHandler.startColumn">
+<span class="sig-name descname"><span class="pre">startColumn</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attrs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.io.ligolw.ligolw.LIGOLWContentHandler.startColumn" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.io.ligolw.ligolw.LIGOLWContentHandler.startParam">
+<span class="sig-name descname"><span class="pre">startParam</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attrs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.io.ligolw.ligolw.LIGOLWContentHandler.startParam" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.io.ligolw.ligolw.LIGOLWContentHandler.startStream">
+<span class="sig-name descname"><span class="pre">startStream</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attrs</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">__orig_startStream=&lt;function</span> <span class="pre">use_in.&lt;locals&gt;.startStream&gt;</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.io.ligolw.ligolw.LIGOLWContentHandler.startStream" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.io.ligolw.ligolw.LIGOLWContentHandler.startTable">
+<span class="sig-name descname"><span class="pre">startTable</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parent</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">attrs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.io.ligolw.ligolw.LIGOLWContentHandler.startTable" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.ligolw.get_ligolw_element">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.ligolw.</span></span><span class="sig-name descname"><span class="pre">get_ligolw_element</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">index</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">LIGO_LW</span></span></span><a class="headerlink" href="#spiir.io.ligolw.ligolw.get_ligolw_element" title="Permalink to this definition"></a></dt>
+<dd><p>Find an existing LIGO_LW element in an LIGO_LW XML Document, selected by index.</p>
+<p>This code is sourced from gwpy.io.ligolw.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<em>ligo.lw.ligolw.Document</em>) – A valid LIGO_LW XML Document object with the required LIGO_LW elements.</p></li>
+<li><p><strong>index</strong> (<em>int</em>) – The index position of LIGO_LW elements to select.
+If index = 0, select the first; if index = 1, select the second, etc.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The same LIGO_LW Document object with ilwd:char types converted to integers.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>ligo.lw.ligolw.Document</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.ligolw.load_ligolw_xmldoc">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.ligolw.</span></span><span class="sig-name descname"><span class="pre">load_ligolw_xmldoc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ilwdchar_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">legacy_postcoh_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nullable</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">contenthandler</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">LIGOLWContentHandler</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Document</span></span></span><a class="headerlink" href="#spiir.io.ligolw.ligolw.load_ligolw_xmldoc" title="Permalink to this definition"></a></dt>
+<dd><p>Reads a valid LIGO_LW XML Document from a file path and returns a dictionary containing
+the complex SNR timeseries arrays associated with each interferometer (‘ifo’).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>path</strong> (<em>str</em><em> | </em><em>bytes</em><em> | </em><em>PathLike</em>) – A path-like to a file containing a valid LIGO_LW XML Document.</p></li>
+<li><p><strong>add_epoch_time</strong> (<em>bool</em>) – Whether to add the epoch time to each SNR series array for correct timestamps.</p></li>
+<li><p><strong>ilwdchar_compat</strong> (<em>bool</em>) – Whether to add ilwdchar conversion compatibility.</p></li>
+<li><p><strong>legacy_postcoh_compat</strong> (<em>bool</em>) – Whether to handle compatibility for legacy postcoh table formats.</p></li>
+<li><p><strong>nullable</strong> (<em>bool</em>) – If True, sets the values for missing postcoh columns to NoneType,
+otherwise it is set to an appropriate default value given the column type.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The loaded LIGO_LW Document object.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>ligo.lw.ligolw.Document</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.ligolw.strip_ilwdchar">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.ligolw.</span></span><span class="sig-name descname"><span class="pre">strip_ilwdchar</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Document</span></span></span><a class="headerlink" href="#spiir.io.ligolw.ligolw.strip_ilwdchar" title="Permalink to this definition"></a></dt>
+<dd><p>Transforms a document containing tabular data using ilwd:char style row
+IDs to plain integer row IDs. This is used to translate documents in the
+older format for compatibility with the modern version of the LIGO Light
+Weight XML Python library.</p>
+<p>This is a refactor from ligo.lw to handle any ligo.lw.param.Param instances
+as well as ligo.lw.table.Table instances.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>xmldoc</strong> (<em>ligo.lw.ligolw.Document</em>) – A valid LIGO_LW XML Document objectwith the required LIGO_LW elements.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The same LIGO_LW Document object with ilwd:char types converted to integers.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>ligo.lw.ligolw.Document</p>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<p>The transformation is lossy, and can only be inverted with specific
+knowledge of the structure of the document being processed.  Therefore,
+there is no general implementation of the reverse transformation.
+Applications that require the inverse transformation must implement their
+own algorithm for doing so, specifically for their needs.</p>
+</dd></dl>
+
+<span class="target" id="module-spiir.io.ligolw.param"></span><dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.param.append_p_astro_to_ligolw">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.param.</span></span><span class="sig-name descname"><span class="pre">append_p_astro_to_ligolw</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p_astro</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">overwrite</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Document</span></span></span><a class="headerlink" href="#spiir.io.ligolw.param.append_p_astro_to_ligolw" title="Permalink to this definition"></a></dt>
+<dd><p>Appends p_astro source probability values to a LIGO_LW XML Document.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code>) – A LIGO_LW Document object.</p></li>
+<li><p><strong>p_astro</strong> (<em>dict</em><em>[</em><em>str</em><em>, </em><em>float</em><em>]</em>) – Astrophysical source probabilities.</p></li>
+<li><p><strong>overwrite</strong> (bool, default: <cite>True</cite>) – If true, removes all other LIGO_LW p_astro elements before appending.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A LIGO_LW Document object that contains a LIGO_LW p_astro element.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.param.get_p_astro_from_xmldoc">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.param.</span></span><span class="sig-name descname"><span class="pre">get_p_astro_from_xmldoc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.io.ligolw.param.get_p_astro_from_xmldoc" title="Permalink to this definition"></a></dt>
+<dd><p>Retrieves p_astro source probability values from a LIGO_LW XML Document.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>xmldoc</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code>) – A LIGO_LW Document object that contains a p_astro LIGO_LW element.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The astrophysical source probabiltiies (p_astro) defined in the XML document.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, float]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.param.get_params_from_xmldoc">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.param.</span></span><span class="sig-name descname"><span class="pre">get_params_from_xmldoc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">params</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="headerlink" href="#spiir.io.ligolw.param.get_params_from_xmldoc" title="Permalink to this definition"></a></dt>
+<dd><p>Retrieves params values from a LIGO_LW XML Document as a dictionary.</p>
+<p>Note that this function automatically ignores LIGO_LW elements that have Name
+attributes, such as the LIGO_LW PSD, SNR, or P_Astro elements.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code>) – A valid LIGO_LW XML Document element that contains Param element(s).</p></li>
+<li><p><strong>params</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Sequence[str]</span></code>, optional) – If provided, retrieve the specified parameters by their name.
+Otherwise if params is None, retrieve all parameters from the xmldoc object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The params defined in the XML document.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.param.load_params_from_xml">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.param.</span></span><span class="sig-name descname"><span class="pre">load_params_from_xml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">params</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span></span></span><a class="headerlink" href="#spiir.io.ligolw.param.load_params_from_xml" title="Permalink to this definition"></a></dt>
+<dd><p>Reads a valid LIGO_LW XML Document from a file path and returns a dictionary
+containing the LIGO_LW Param elements present in the file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>path</strong> (str | bytes | <code class="xref py py-class docutils literal notranslate"><span class="pre">PathLike</span></code>) – A path-like to an XML file containing a valid LIGO_LW XML Document.</p></li>
+<li><p><strong>params</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Sequence[str]</span></code>, optional) – If provided, retrieve the specified parameters by their name.
+Otherwise if params is None, retrieve all parameters from the xmldoc object.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The params defined in the XML document.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-spiir.io.ligolw.postcoh"></span><dl class="py class">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.postcoh.</span></span><span class="sig-name descname"><span class="pre">PostcohInspiral</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">RowType</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.bankid">
+<span class="sig-name descname"><span class="pre">bankid</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.bankid" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.chisq_H1">
+<span class="sig-name descname"><span class="pre">chisq_H1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.chisq_H1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.chisq_K1">
+<span class="sig-name descname"><span class="pre">chisq_K1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.chisq_K1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.chisq_L1">
+<span class="sig-name descname"><span class="pre">chisq_L1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.chisq_L1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.chisq_V1">
+<span class="sig-name descname"><span class="pre">chisq_V1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.chisq_V1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.cmbchisq">
+<span class="sig-name descname"><span class="pre">cmbchisq</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.cmbchisq" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.coaphase_H1">
+<span class="sig-name descname"><span class="pre">coaphase_H1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.coaphase_H1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.coaphase_K1">
+<span class="sig-name descname"><span class="pre">coaphase_K1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.coaphase_K1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.coaphase_L1">
+<span class="sig-name descname"><span class="pre">coaphase_L1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.coaphase_L1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.coaphase_V1">
+<span class="sig-name descname"><span class="pre">coaphase_V1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.coaphase_V1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.cohsnr">
+<span class="sig-name descname"><span class="pre">cohsnr</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.cohsnr" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.dec">
+<span class="sig-name descname"><span class="pre">dec</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.dec" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.deff_H1">
+<span class="sig-name descname"><span class="pre">deff_H1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.deff_H1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.deff_K1">
+<span class="sig-name descname"><span class="pre">deff_K1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.deff_K1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.deff_L1">
+<span class="sig-name descname"><span class="pre">deff_L1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.deff_L1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.deff_V1">
+<span class="sig-name descname"><span class="pre">deff_V1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.deff_V1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.end">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">end</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.end" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.end_time">
+<span class="sig-name descname"><span class="pre">end_time</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.end_time" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.end_time_ns">
+<span class="sig-name descname"><span class="pre">end_time_ns</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.end_time_ns" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.end_time_ns_sngl_H1">
+<span class="sig-name descname"><span class="pre">end_time_ns_sngl_H1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.end_time_ns_sngl_H1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.end_time_ns_sngl_K1">
+<span class="sig-name descname"><span class="pre">end_time_ns_sngl_K1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.end_time_ns_sngl_K1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.end_time_ns_sngl_L1">
+<span class="sig-name descname"><span class="pre">end_time_ns_sngl_L1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.end_time_ns_sngl_L1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.end_time_ns_sngl_V1">
+<span class="sig-name descname"><span class="pre">end_time_ns_sngl_V1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.end_time_ns_sngl_V1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.end_time_sngl_H1">
+<span class="sig-name descname"><span class="pre">end_time_sngl_H1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.end_time_sngl_H1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.end_time_sngl_K1">
+<span class="sig-name descname"><span class="pre">end_time_sngl_K1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.end_time_sngl_K1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.end_time_sngl_L1">
+<span class="sig-name descname"><span class="pre">end_time_sngl_L1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.end_time_sngl_L1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.end_time_sngl_V1">
+<span class="sig-name descname"><span class="pre">end_time_sngl_V1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.end_time_sngl_V1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.eta">
+<span class="sig-name descname"><span class="pre">eta</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.eta" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.event_id">
+<span class="sig-name descname"><span class="pre">event_id</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.event_id" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.f_final">
+<span class="sig-name descname"><span class="pre">f_final</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.f_final" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.fap">
+<span class="sig-name descname"><span class="pre">fap</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.fap" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far">
+<span class="sig-name descname"><span class="pre">far</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_1d">
+<span class="sig-name descname"><span class="pre">far_1d</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_1d" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_1d_sngl_H1">
+<span class="sig-name descname"><span class="pre">far_1d_sngl_H1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_1d_sngl_H1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_1d_sngl_K1">
+<span class="sig-name descname"><span class="pre">far_1d_sngl_K1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_1d_sngl_K1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_1d_sngl_L1">
+<span class="sig-name descname"><span class="pre">far_1d_sngl_L1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_1d_sngl_L1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_1d_sngl_V1">
+<span class="sig-name descname"><span class="pre">far_1d_sngl_V1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_1d_sngl_V1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_1w">
+<span class="sig-name descname"><span class="pre">far_1w</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_1w" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_1w_sngl_H1">
+<span class="sig-name descname"><span class="pre">far_1w_sngl_H1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_1w_sngl_H1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_1w_sngl_K1">
+<span class="sig-name descname"><span class="pre">far_1w_sngl_K1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_1w_sngl_K1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_1w_sngl_L1">
+<span class="sig-name descname"><span class="pre">far_1w_sngl_L1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_1w_sngl_L1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_1w_sngl_V1">
+<span class="sig-name descname"><span class="pre">far_1w_sngl_V1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_1w_sngl_V1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_2h">
+<span class="sig-name descname"><span class="pre">far_2h</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_2h" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_2h_sngl_H1">
+<span class="sig-name descname"><span class="pre">far_2h_sngl_H1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_2h_sngl_H1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_2h_sngl_K1">
+<span class="sig-name descname"><span class="pre">far_2h_sngl_K1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_2h_sngl_K1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_2h_sngl_L1">
+<span class="sig-name descname"><span class="pre">far_2h_sngl_L1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_2h_sngl_L1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_2h_sngl_V1">
+<span class="sig-name descname"><span class="pre">far_2h_sngl_V1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_2h_sngl_V1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_sngl_H1">
+<span class="sig-name descname"><span class="pre">far_sngl_H1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_sngl_H1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_sngl_K1">
+<span class="sig-name descname"><span class="pre">far_sngl_K1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_sngl_K1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_sngl_L1">
+<span class="sig-name descname"><span class="pre">far_sngl_L1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_sngl_L1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.far_sngl_V1">
+<span class="sig-name descname"><span class="pre">far_sngl_V1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.far_sngl_V1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.ifos">
+<span class="sig-name descname"><span class="pre">ifos</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.ifos" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.is_background">
+<span class="sig-name descname"><span class="pre">is_background</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.is_background" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.livetime">
+<span class="sig-name descname"><span class="pre">livetime</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.livetime" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.mass1">
+<span class="sig-name descname"><span class="pre">mass1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.mass1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.mass2">
+<span class="sig-name descname"><span class="pre">mass2</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.mass2" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.mchirp">
+<span class="sig-name descname"><span class="pre">mchirp</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.mchirp" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.mtotal">
+<span class="sig-name descname"><span class="pre">mtotal</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.mtotal" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.nullsnr">
+<span class="sig-name descname"><span class="pre">nullsnr</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.nullsnr" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.pivotal_ifo">
+<span class="sig-name descname"><span class="pre">pivotal_ifo</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.pivotal_ifo" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.pix_idx">
+<span class="sig-name descname"><span class="pre">pix_idx</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.pix_idx" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.process_id">
+<span class="sig-name descname"><span class="pre">process_id</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.process_id" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.ra">
+<span class="sig-name descname"><span class="pre">ra</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.ra" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.rank">
+<span class="sig-name descname"><span class="pre">rank</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.rank" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.skymap_fname">
+<span class="sig-name descname"><span class="pre">skymap_fname</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.skymap_fname" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.snglsnr_H1">
+<span class="sig-name descname"><span class="pre">snglsnr_H1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.snglsnr_H1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.snglsnr_K1">
+<span class="sig-name descname"><span class="pre">snglsnr_K1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.snglsnr_K1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.snglsnr_L1">
+<span class="sig-name descname"><span class="pre">snglsnr_L1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.snglsnr_L1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.snglsnr_V1">
+<span class="sig-name descname"><span class="pre">snglsnr_V1</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.snglsnr_V1" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.spearman_pval">
+<span class="sig-name descname"><span class="pre">spearman_pval</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.spearman_pval" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.spin1x">
+<span class="sig-name descname"><span class="pre">spin1x</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.spin1x" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.spin1y">
+<span class="sig-name descname"><span class="pre">spin1y</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.spin1y" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.spin1z">
+<span class="sig-name descname"><span class="pre">spin1z</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.spin1z" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.spin2x">
+<span class="sig-name descname"><span class="pre">spin2x</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.spin2x" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.spin2y">
+<span class="sig-name descname"><span class="pre">spin2y</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.spin2y" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.spin2z">
+<span class="sig-name descname"><span class="pre">spin2z</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.spin2z" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.template_duration">
+<span class="sig-name descname"><span class="pre">template_duration</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.template_duration" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiral.tmplt_idx">
+<span class="sig-name descname"><span class="pre">tmplt_idx</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiral.tmplt_idx" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiralTable">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.postcoh.</span></span><span class="sig-name descname"><span class="pre">PostcohInspiralTable</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">attrs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiralTable" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiralTable.RowType">
+<span class="sig-name descname"><span class="pre">RowType</span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiralTable.RowType" title="Permalink to this definition"></a></dt>
+<dd><p>alias of <a class="reference internal" href="#spiir.io.ligolw.postcoh.PostcohInspiral" title="spiir.io.ligolw.postcoh.PostcohInspiral"><code class="xref py py-class docutils literal notranslate"><span class="pre">PostcohInspiral</span></code></a></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiralTable.constraints">
+<span class="sig-name descname"><span class="pre">constraints</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'PRIMARY</span> <span class="pre">KEY</span> <span class="pre">(event_id)'</span></em><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiralTable.constraints" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiralTable.next_id">
+<span class="sig-name descname"><span class="pre">next_id</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiralTable.next_id" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiralTable.tableName">
+<span class="sig-name descname"><span class="pre">tableName</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'postcoh'</span></em><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiralTable.tableName" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.PostcohInspiralTable.validcolumns">
+<span class="sig-name descname"><span class="pre">validcolumns</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'bankid':</span> <span class="pre">'int_4s',</span> <span class="pre">'chisq_H1':</span> <span class="pre">'real_4',</span> <span class="pre">'chisq_K1':</span> <span class="pre">'real_4',</span> <span class="pre">'chisq_L1':</span> <span class="pre">'real_4',</span> <span class="pre">'chisq_V1':</span> <span class="pre">'real_4',</span> <span class="pre">'cmbchisq':</span> <span class="pre">'real_4',</span> <span class="pre">'coaphase_H1':</span> <span class="pre">'real_4',</span> <span class="pre">'coaphase_K1':</span> <span class="pre">'real_4',</span> <span class="pre">'coaphase_L1':</span> <span class="pre">'real_4',</span> <span class="pre">'coaphase_V1':</span> <span class="pre">'real_4',</span> <span class="pre">'cohsnr':</span> <span class="pre">'real_4',</span> <span class="pre">'dec':</span> <span class="pre">'real_8',</span> <span class="pre">'deff_H1':</span> <span class="pre">'real_8',</span> <span class="pre">'deff_K1':</span> <span class="pre">'real_8',</span> <span class="pre">'deff_L1':</span> <span class="pre">'real_8',</span> <span class="pre">'deff_V1':</span> <span class="pre">'real_8',</span> <span class="pre">'end_time':</span> <span class="pre">'int_4s',</span> <span class="pre">'end_time_ns':</span> <span class="pre">'int_4s',</span> <span class="pre">'end_time_ns_sngl_H1':</span> <span class="pre">'int_4s',</span> <span class="pre">'end_time_ns_sngl_K1':</span> <span class="pre">'int_4s',</span> <span class="pre">'end_time_ns_sngl_L1':</span> <span class="pre">'int_4s',</span> <span class="pre">'end_time_ns_sngl_V1':</span> <span class="pre">'int_4s',</span> <span class="pre">'end_time_sngl_H1':</span> <span class="pre">'int_4s',</span> <span class="pre">'end_time_sngl_K1':</span> <span class="pre">'int_4s',</span> <span class="pre">'end_time_sngl_L1':</span> <span class="pre">'int_4s',</span> <span class="pre">'end_time_sngl_V1':</span> <span class="pre">'int_4s',</span> <span class="pre">'eta':</span> <span class="pre">'real_4',</span> <span class="pre">'event_id':</span> <span class="pre">'int_8s',</span> <span class="pre">'f_final':</span> <span class="pre">'real_4',</span> <span class="pre">'fap':</span> <span class="pre">'real_4',</span> <span class="pre">'far':</span> <span class="pre">'real_4',</span> <span class="pre">'far_1d':</span> <span class="pre">'real_4',</span> <span class="pre">'far_1d_sngl_H1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_1d_sngl_K1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_1d_sngl_L1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_1d_sngl_V1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_1w':</span> <span class="pre">'real_4',</span> <span class="pre">'far_1w_sngl_H1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_1w_sngl_K1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_1w_sngl_L1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_1w_sngl_V1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_2h':</span> <span class="pre">'real_4',</span> <span class="pre">'far_2h_sngl_H1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_2h_sngl_K1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_2h_sngl_L1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_2h_sngl_V1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_sngl_H1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_sngl_K1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_sngl_L1':</span> <span class="pre">'real_4',</span> <span class="pre">'far_sngl_V1':</span> <span class="pre">'real_4',</span> <span class="pre">'ifos':</span> <span class="pre">'lstring',</span> <span class="pre">'is_background':</span> <span class="pre">'int_4s',</span> <span class="pre">'livetime':</span> <span class="pre">'int_4s',</span> <span class="pre">'mass1':</span> <span class="pre">'real_4',</span> <span class="pre">'mass2':</span> <span class="pre">'real_4',</span> <span class="pre">'mchirp':</span> <span class="pre">'real_4',</span> <span class="pre">'mtotal':</span> <span class="pre">'real_4',</span> <span class="pre">'nullsnr':</span> <span class="pre">'real_4',</span> <span class="pre">'pivotal_ifo':</span> <span class="pre">'lstring',</span> <span class="pre">'pix_idx':</span> <span class="pre">'int_4s',</span> <span class="pre">'process_id':</span> <span class="pre">'int_8s',</span> <span class="pre">'ra':</span> <span class="pre">'real_8',</span> <span class="pre">'rank':</span> <span class="pre">'real_8',</span> <span class="pre">'skymap_fname':</span> <span class="pre">'lstring',</span> <span class="pre">'snglsnr_H1':</span> <span class="pre">'real_4',</span> <span class="pre">'snglsnr_K1':</span> <span class="pre">'real_4',</span> <span class="pre">'snglsnr_L1':</span> <span class="pre">'real_4',</span> <span class="pre">'snglsnr_V1':</span> <span class="pre">'real_4',</span> <span class="pre">'spearman_pval':</span> <span class="pre">'real_4',</span> <span class="pre">'spin1x':</span> <span class="pre">'real_4',</span> <span class="pre">'spin1y':</span> <span class="pre">'real_4',</span> <span class="pre">'spin1z':</span> <span class="pre">'real_4',</span> <span class="pre">'spin2x':</span> <span class="pre">'real_4',</span> <span class="pre">'spin2y':</span> <span class="pre">'real_4',</span> <span class="pre">'spin2z':</span> <span class="pre">'real_4',</span> <span class="pre">'template_duration':</span> <span class="pre">'real_8',</span> <span class="pre">'tmplt_idx':</span> <span class="pre">'int_4s'}</span></em><a class="headerlink" href="#spiir.io.ligolw.postcoh.PostcohInspiralTable.validcolumns" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.include_missing_postcoh_columns">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.postcoh.</span></span><span class="sig-name descname"><span class="pre">include_missing_postcoh_columns</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nullable</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Document</span></span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.include_missing_postcoh_columns" title="Permalink to this definition"></a></dt>
+<dd><p>Adds any missing PostcohInspiralTable columns and fills them with default values.</p>
+<p>NOTE: This function assumes that all legacy PostcohInspiralTable columns have been
+updated to their latest values - otherwise unconverted column names will be
+interpreted as if they were simply missing.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<em>ligo.lw.ligo.lw.ligolw.Document</em>) – A valid LIGO_LW XML Document element with a PostcohInspiralTable element.</p></li>
+<li><p><strong>nullable</strong> (<em>bool</em>) – If True, sets the values for missing postcoh columns to NoneType,
+otherwise it is set to an appropriate default value given the column type.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The same LIGO_LW Document object with updated table column names.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>ligo.lw.ligolw.Document</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.rename_legacy_postcoh_columns">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.postcoh.</span></span><span class="sig-name descname"><span class="pre">rename_legacy_postcoh_columns</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Document</span></span></span><a class="headerlink" href="#spiir.io.ligolw.postcoh.rename_legacy_postcoh_columns" title="Permalink to this definition"></a></dt>
+<dd><p>Updates legacy PostcohInspiralTable table column names to their latest versions.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>xmldoc</strong> (<em>ligo.lw.ligo.lw.ligolw.Document</em>) – A valid LIGO_LW XML Document element with a PostcohInspiralTable element.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The same LIGO_LW Document object with updated table column names.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>ligo.lw.ligolw.Document</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.postcoh.use_in">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.postcoh.</span></span><span class="sig-name descname"><span class="pre">use_in</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ContentHandler</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.io.ligolw.postcoh.use_in" title="Permalink to this definition"></a></dt>
+<dd><p>Modify ContentHandler, a sub-class of ligo.lw.ligolw.LIGOLWContentHandler, to
+cause it to use the Table classes defined in this module when parsing XML documents.</p>
+<p>NOTE: This function has not been tested and should not be assumed to work correctly.</p>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">glue.ligolw</span> <span class="kn">import</span> <span class="n">ligolw</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">class</span> <span class="nc">MyContentHandler</span><span class="p">(</span><span class="n">ligolw</span><span class="o">.</span><span class="n">LIGOLWContentHandler</span><span class="p">):</span>
+<span class="gp">... </span><span class="k">pass</span>
+<span class="gp">...</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">use_in</span><span class="p">(</span><span class="n">MyContentHandler</span><span class="p">)</span>
+<span class="go">&lt;class &#39;glue.ligolw.lsctables.MyContentHandler&#39;&gt;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<span class="target" id="module-spiir.io.ligolw.table"></span><dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.table.append_table_to_ligolw">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.table.</span></span><span class="sig-name descname"><span class="pre">append_table_to_ligolw</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">table</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Table</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">overwrite</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Document</span></span></span><a class="headerlink" href="#spiir.io.ligolw.table.append_table_to_ligolw" title="Permalink to this definition"></a></dt>
+<dd><p>Writes the given LIGO_LW table into a LIGO_LW XML document.</p>
+<p>This code is sourced from gwpy.io.table.py.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Document</span></code>) – the document to write into</p></li>
+<li><p><strong>tables</strong> (<cite>list</cite> of <code class="xref py py-class docutils literal notranslate"><span class="pre">Table</span></code>) – the set of tables to write</p></li>
+<li><p><strong>overwrite</strong> (<cite>bool</cite>, optional, default: <cite>False</cite>) – if <cite>True</cite>, delete an existing instance of the table type, otherwise
+append new rows.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.table.build_dataframe_from_table">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.table.</span></span><span class="sig-name descname"><span class="pre">build_dataframe_from_table</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">table</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Table</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">columns</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">DataFrame</span></span></span><a class="headerlink" href="#spiir.io.ligolw.table.build_dataframe_from_table" title="Permalink to this definition"></a></dt>
+<dd><p>Reads a ligo.lw.table.Table object and returns as its corresponding pd.DataFrame.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>table</strong> (<em>ligo.lw.table.Table</em>) – A LIGO_LW Table object instance loaded from a LIGO_LW XML Document.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The Table as a pd.DataFrame with appropriate data, types, and column names.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>pd.DataFrame</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.table.build_table_element">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.table.</span></span><span class="sig-name descname"><span class="pre">build_table_element</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">table</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.io.ligolw.table.build_table_element" title="Permalink to this definition"></a></dt>
+<dd><p>Builds an LIGO_LW lsctable XML element by table name from a DataFrame.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.table.get_table_from_xmldoc">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.table.</span></span><span class="sig-name descname"><span class="pre">get_table_from_xmldoc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">table</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">columns</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">DataFrame</span></span></span><a class="headerlink" href="#spiir.io.ligolw.table.get_table_from_xmldoc" title="Permalink to this definition"></a></dt>
+<dd><p>Convenience function to get one table from one LIGO_LW xmldoc element.</p>
+<p>This is a essentially a combined wrapper around the ligo.lw.table.Table.get_table
+class method and our dataframe conversion function for convenience.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<em>ligo.lw.ligolw.Document</em>) – A LIGO_LW XML Document element that contains Table element(s).</p></li>
+<li><p><strong>table</strong> (<em>str</em>) – The name of the Table element to retrieve.</p></li>
+<li><p><strong>columns</strong> (<em>Sequence</em><em>[</em><em>str</em><em>] </em><em>| </em><em>None</em>) – If provided, retrieve the specified columns by their name.
+Otherwise if columns is None, retrieve all columns from the Table element.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The Table as a pd.DataFrame with appropriate data, types, and column names.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>pd.DataFrame</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.table.get_tables_from_xmldoc">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.table.</span></span><span class="sig-name descname"><span class="pre">get_tables_from_xmldoc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">xmldoc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Document</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tables</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">DataFrame</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.io.ligolw.table.get_tables_from_xmldoc" title="Permalink to this definition"></a></dt>
+<dd><p>Convenience function to get one or more tables from one LIGO_LW xmldoc element.</p>
+<p>This function can retrieve multiple tables from a loaded LIGO_LW xmldoc element if
+the tables parameter is specified as either a sequence (e.g. list) or dictionary,
+where specific columns can be loaded by specifying them in the dictionary values.</p>
+<p>The function return signature is a dictionary of DataFrames, where each key
+corresponds to the table name(s) specified by the input.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>xmldoc</strong> (<em>ligo.lw.ligolw.Document</em>) – A LIGO_LW XML Document element that contains Table element(s).</p></li>
+<li><p><strong>tables</strong> (<em>str</em><em> | </em><em>Sequence</em><em>[</em><em>str</em><em>] </em><em>| </em><em>dict</em><em>[</em><em>str</em><em>, </em><em>Sequence</em><em>[</em><em>str</em><em>] </em><em>| </em><em>None</em><em>] </em><em>| </em><em>None</em>) – The name(s) of the Table element to retrieve. If tables is a str, we retrieve
+one table with that given name if it exists in the xmldoc. If tables is a
+Sequence[str] (i.e. a list or tuple of strings), then we load each of the
+specified tables. If tables is a dict, we retrieve each table name specified in
+the dictionary keys where each value corresponds to the list of column names we
+wish to load for each table, loading all table if the value is None. If tables
+itself is None, then we load all table elements present in the xmldoc.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary where keys are table names and values are tables as a pd.DataFrame.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, pd.DataFrame]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.table.load_ligolw_tables">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.table.</span></span><span class="sig-name descname"><span class="pre">load_ligolw_tables</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">paths</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">table</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">columns</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ilwdchar_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">legacy_postcoh_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nullable</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nproc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">DataFrame</span></span></span><a class="headerlink" href="#spiir.io.ligolw.table.load_ligolw_tables" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.table.load_table_from_xml">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.table.</span></span><span class="sig-name descname"><span class="pre">load_table_from_xml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">table</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">columns</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ilwdchar_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">legacy_postcoh_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nullable</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">DataFrame</span></span></span><a class="headerlink" href="#spiir.io.ligolw.table.load_table_from_xml" title="Permalink to this definition"></a></dt>
+<dd><p>Loads one table from one LIGO_LW XML file path and returns a pd.DataFrame.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>path</strong> (<em>str</em><em> | </em><em>bytes</em><em> | </em><em>PathLike</em><em> | </em><em>Sequence</em><em>[</em><em>str</em><em> | </em><em>bytes</em><em> | </em><em>PathLike</em><em>]</em>) – A path or list of paths to LIGO_LW XML Document(s) each with a postcoh table.</p></li>
+<li><p><strong>table</strong> (<em>str</em>) – The name of the Table element to retrieve.</p></li>
+<li><p><strong>columns</strong> (<em>Sequence</em><em>[</em><em>str</em><em>] </em><em>| </em><em>None = None</em>) – A optional list of column names to filter and read in from each postcoh table.</p></li>
+<li><p><strong>ilwdchar_compat</strong> (<em>bool</em>) – Whether to add ilwdchar conversion compatibility.</p></li>
+<li><p><strong>legacy_postcoh_compat</strong> (<em>bool</em>) – Whether to handle compatibility for legacy postcoh table formats.</p></li>
+<li><p><strong>nullable</strong> (<em>bool</em>) – If True, sets the values for missing postcoh columns to NoneType,
+otherwise it is set to an appropriate default value given the column type.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The Table as a pd.DataFrame with appropriate data, types, and column names.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>pd.DataFrame</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.table.load_table_from_xmls">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.table.</span></span><span class="sig-name descname"><span class="pre">load_table_from_xmls</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">paths</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">table</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">columns</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ilwdchar_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">legacy_postcoh_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nullable</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">concat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skip_exceptions</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nproc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">DataFrame</span></span></span><a class="headerlink" href="#spiir.io.ligolw.table.load_table_from_xmls" title="Permalink to this definition"></a></dt>
+<dd><p>Loads a table from one or multiple LIGO_LW XML and returns a pandas DataFrame.</p>
+<p>Note that each XML file must have the same table present in each document.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>paths</strong> (<em>str</em><em> | </em><em>bytes</em><em> | </em><em>PathLike</em><em> | </em><em>Sequence</em><em>[</em><em>str</em><em> | </em><em>bytes</em><em> | </em><em>PathLike</em><em>]</em>) – A path or list of paths to LIGO_LW XML Document(s) each with a postcoh table.</p></li>
+<li><p><strong>table</strong> (<em>str</em>) – The name of the Table element to retrieve.</p></li>
+<li><p><strong>columns</strong> (<em>Sequence</em><em>[</em><em>str</em><em>] </em><em>| </em><em>None = None</em>) – A optional list of column names to filter and read in from each postcoh table.</p></li>
+<li><p><strong>ilwdchar_compat</strong> (<em>bool</em>) – Whether to add ilwdchar conversion compatibility.</p></li>
+<li><p><strong>legacy_postcoh_compat</strong> (<em>bool</em>) – Whether to handle compatibility for legacy postcoh table formats.</p></li>
+<li><p><strong>nullable</strong> (<em>bool</em>) – If True, sets the values for missing postcoh columns to NoneType,
+otherwise it is set to an appropriate default value given the column type.</p></li>
+<li><p><strong>concat</strong> (<em>bool</em>) – If True, concatenates DataFrames together ignoring the index, else returns a
+list of DataFrames for each table in order.</p></li>
+<li><p><strong>skip_exceptions</strong> (<em>bool</em>) – If True, exceptions raised by a process during mulitprocessing will be ignored.</p></li>
+<li><p><strong>nproc</strong> (<em>int</em>) – Number of CPU processes to use for multiprocessing. Default: 1, recommended: 4.</p></li>
+<li><p><strong>verbose</strong> (<em>bool</em>) – If True, displays a loading progress bar.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The Table as a pd.DataFrame with appropriate data, types, and column names.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>pd.DataFrame</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.table.load_tables_from_xml">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.table.</span></span><span class="sig-name descname"><span class="pre">load_tables_from_xml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tables</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ilwdchar_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">legacy_postcoh_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nullable</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">DataFrame</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.io.ligolw.table.load_tables_from_xml" title="Permalink to this definition"></a></dt>
+<dd><p>Convenience function to get one or more tables from one LIGO_LW xmldoc element.</p>
+<p>This function can retrieve multiple tables from a loaded LIGO_LW xmldoc element if
+the tables parameter is specified as either a sequence (e.g. list) or dictionary,
+where specific columns can be loaded by specifying them in the dictionary values.</p>
+<p>The function return signature is a dictionary of DataFrames, where each key
+corresponds to the table name(s) specified by the input.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>path</strong> (<em>str</em><em> | </em><em>bytes</em><em> | </em><em>PathLike</em><em> | </em><em>Sequence</em><em>[</em><em>str</em><em> | </em><em>bytes</em><em> | </em><em>PathLike</em><em>]</em>) – A path or list of paths to LIGO_LW XML Document(s) each with a postcoh table.</p></li>
+<li><p><strong>tables</strong> (<em>str</em><em> | </em><em>Sequence</em><em>[</em><em>str</em><em>] </em><em>| </em><em>dict</em><em>[</em><em>str</em><em>, </em><em>Sequence</em><em>[</em><em>str</em><em>] </em><em>| </em><em>None</em><em>] </em><em>| </em><em>None</em>) – The name(s) of the Table element to retrieve. If tables is a str, we retrieve
+one table with that given name if it exists in the xmldoc. If tables is a
+Sequence[str] (i.e. a list or tuple of strings), then we load each of the
+specified tables. If tables is a dict, we retrieve each table name specified in
+the dictionary keys where each value corresponds to the list of column names we
+wish to load for each table, loading all table if the value is None. If tables
+itself is None, then we load all table elements present in the xmldoc.</p></li>
+<li><p><strong>ilwdchar_compat</strong> (<em>bool</em>) – Whether to add ilwdchar conversion compatibility.</p></li>
+<li><p><strong>legacy_postcoh_compat</strong> (<em>bool</em>) – Whether to handle compatibility for legacy postcoh table formats.</p></li>
+<li><p><strong>nullable</strong> (<em>bool</em>) – If True, sets the values for missing postcoh columns to NoneType,
+otherwise it is set to an appropriate default value given the column type.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary where keys are table names and values are tables as a pd.DataFrame.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, pd.DataFrame]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.io.ligolw.table.load_tables_from_xmls">
+<span class="sig-prename descclassname"><span class="pre">spiir.io.ligolw.table.</span></span><span class="sig-name descname"><span class="pre">load_tables_from_xmls</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">paths</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tables</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ilwdchar_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">legacy_postcoh_compat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nullable</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">concat</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skip_exceptions</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nproc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">DataFrame</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.io.ligolw.table.load_tables_from_xmls" title="Permalink to this definition"></a></dt>
+<dd><p>Convenience function to get one or more tables from one LIGO_LW xmldoc element.</p>
+<p>This function can retrieve multiple tables from a loaded LIGO_LW xmldoc element if
+the tables parameter is specified as either a sequence (e.g. list) or dictionary,
+where specific columns can be loaded by specifying them in the dictionary values.</p>
+<p>The function return signature is a dictionary of DataFrames, where each key
+corresponds to the table name(s) specified by the input.</p>
+<p>Note that each XML file must have the same set of tables present in each document.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>paths</strong> (<em>str</em><em> | </em><em>bytes</em><em> | </em><em>PathLike</em><em> | </em><em>Sequence</em><em>[</em><em>str</em><em> | </em><em>bytes</em><em> | </em><em>PathLike</em><em>]</em>) – A path or list of paths to LIGO_LW XML Document(s) each with a postcoh table.</p></li>
+<li><p><strong>tables</strong> (<em>str</em><em> | </em><em>Sequence</em><em>[</em><em>str</em><em>] </em><em>| </em><em>dict</em><em>[</em><em>str</em><em>, </em><em>Sequence</em><em>[</em><em>str</em><em>] </em><em>| </em><em>None</em><em>] </em><em>| </em><em>None</em>) – The name(s) of the Table element to retrieve. If tables is a str, we retrieve
+one table with that given name if it exists in the xmldoc. If tables is a
+Sequence[str] (i.e. a list or tuple of strings), then we load each of the
+specified tables. If tables is a dict, we retrieve each table name specified in
+the dictionary keys where each value corresponds to the list of column names we
+wish to load for each table, loading all table if the value is None. If tables
+itself is None, then we load all table elements present in the xmldoc.</p></li>
+<li><p><strong>ilwdchar_compat</strong> (<em>bool</em>) – Whether to add ilwdchar conversion compatibility.</p></li>
+<li><p><strong>legacy_postcoh_compat</strong> (<em>bool</em>) – Whether to handle compatibility for legacy postcoh table formats.</p></li>
+<li><p><strong>nullable</strong> (<em>bool</em>) – If True, sets the values for missing postcoh columns to NoneType,
+otherwise it is set to an appropriate default value given the column type.</p></li>
+<li><p><strong>concat</strong> (<em>bool</em>) – If True, concatenates DataFrames together ignoring the index, else returns a
+list of DataFrames for each table in order.</p></li>
+<li><p><strong>skip_exceptions</strong> (<em>bool</em>) – If True, exceptions raised by a process during mulitprocessing will be ignored.</p></li>
+<li><p><strong>nproc</strong> (<em>int</em>) – Number of CPU processes to use for multiprocessing. Default: 1, recommended: 4.</p></li>
+<li><p><strong>verbose</strong> (<em>bool</em>) – If True, displays a loading progress bar.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A dictionary where keys are table names and values are tables as a pd.DataFrame.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, pd.DataFrame]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-spiir.io.ligolw">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-spiir.io.ligolw" title="Permalink to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="spiir.io.igwn.consumers.html" class="btn btn-neutral float-left" title="spiir.io.igwn.consumers package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="spiir.search.html" class="btn btn-neutral float-right" title="spiir.search package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Daniel Tang.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

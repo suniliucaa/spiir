@@ -1,0 +1,19 @@
+spiir.search.p\_astro.models package
+====================================
+
+Submodules
+----------
+
+
+.. automodule:: spiir.search.p_astro.models.composite_mass_contour
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: spiir.search.p_astro.models
+   :members:
+   :undoc-members:
+   :show-inheritance:

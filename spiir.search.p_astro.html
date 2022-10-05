@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>spiir.search.p_astro package &mdash; SPIIR 0.0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+        <script src="_static/toggleprompt.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="spiir.search.p_astro.models package" href="spiir.search.p_astro.models.html" />
+    <link rel="prev" title="spiir.search package" href="spiir.search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> SPIIR
+          </a>
+              <div class="version">
+                0.0.1
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Modules</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="spiir.html">spiir package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="spiir.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="spiir.distribution.html">spiir.distribution package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="spiir.io.html">spiir.io package</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="spiir.search.html">spiir.search package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="spiir.workflow.html">spiir.workflow package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="spiir.html#module-spiir">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">User Guides</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="data_generation.html">Data Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="iir_filters.html">IIR Filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ligolw.html">LIGO Light-Weight</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">SPIIR</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="modules.html">spiir</a> &raquo;</li>
+          <li><a href="spiir.html">spiir package</a> &raquo;</li>
+          <li><a href="spiir.search.html">spiir.search package</a> &raquo;</li>
+      <li>spiir.search.p_astro package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/spiir.search.p_astro.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="spiir-search-p-astro-package">
+<h1>spiir.search.p_astro package<a class="headerlink" href="#spiir-search-p-astro-package" title="Permalink to this heading"></a></h1>
+<section id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="spiir.search.p_astro.models.html">spiir.search.p_astro.models package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="spiir.search.p_astro.models.html#module-spiir.search.p_astro.models.composite_mass_contour">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spiir.search.p_astro.models.html#module-spiir.search.p_astro.models">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="module-spiir.search.p_astro.fgmc">
+<span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-spiir.search.p_astro.fgmc" title="Permalink to this heading"></a></h2>
+<p>Module containing the computation of p_astro by source category.</p>
+<p>Code sourced from <a class="reference external" href="https://git.ligo.org/lscsoft/p-astro/-/tree/master/ligo">https://git.ligo.org/lscsoft/p-astro/-/tree/master/ligo</a>.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.CountPosteriorElements">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.fgmc.</span></span><span class="sig-name descname"><span class="pre">CountPosteriorElements</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">f_divby_b</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Sequence</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">buff</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1e-15</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.CountPosteriorElements" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.MarginalizedPosterior">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.fgmc.</span></span><span class="sig-name descname"><span class="pre">MarginalizedPosterior</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">f_divby_b</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prior_type</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">terr_source</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fix_sources</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">{}</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">buff</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1e-15</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mcmc</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">astro_sources</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.MarginalizedPosterior" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#spiir.search.p_astro.fgmc.Posterior" title="spiir.search.p_astro.fgmc.Posterior"><code class="xref py py-class docutils literal notranslate"><span class="pre">Posterior</span></code></a></p>
+<p>Class that provides the marginalized FGMC posterior on counts,
+for any number of dimensions up to the max dimensions allowed
+by the original multidimensional FGMC posterior. Inherits from
+the Posterior class.
+Computes astrophysical probability p_astro, by source category.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.MarginalizedPosterior.getCovariance">
+<span class="sig-name descname"><span class="pre">getCovariance</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">categories</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">posterior</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Default'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fix_sources</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Default'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.MarginalizedPosterior.getCovariance" title="Permalink to this definition"></a></dt>
+<dd><p>Function to determine covariance of counts</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>categories</strong> (<em>list of strings</em>) – Keys must match labels of instances of <a class="reference internal" href="#spiir.search.p_astro.fgmc.SourceType" title="spiir.search.p_astro.fgmc.SourceType"><code class="xref py py-class docutils literal notranslate"><span class="pre">SourceType</span></code></a></p></li>
+<li><p><strong>posterior</strong> (<em>callable function</em>) – User-defined counts posterior function. Must
+be constructed in the same way as the posterior function defined in this
+class, i.e, must take as input a dictionary of counts keyed on labels, etc.
+The “Default” is to use the posterior function defined in this class.</p></li>
+<li><p><strong>fix_sources</strong> (<em>dictionary</em>) – Dictionary of pinned sources, with source type
+labels as keys and numbers (to pin to) as values. Defaults to fix_sources
+supplied to instantiate this class.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>covariance between Poisson expected counts</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.MarginalizedPosterior.getOneDimMean">
+<span class="sig-name descname"><span class="pre">getOneDimMean</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">category</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">posterior</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Default'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fix_sources</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Default'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.MarginalizedPosterior.getOneDimMean" title="Permalink to this definition"></a></dt>
+<dd><p>Function to determine mean of 1-dimensional marginalized posterior on counts</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>category</strong> (<em>string</em>) – Source category whose marginalized counts posterior
+is sought. <em>Must</em> match one of the labels of non-pinned sources.</p></li>
+<li><p><strong>posterior</strong> (<em>callable function</em>) – User-defined counts posterior function. Must
+be constructed in the same way as the posterior function defined in this
+class, i.e, must take as input a dictionary of counts keyed on labels, etc.
+The “Default” is to use the posterior function defined in this class.</p></li>
+<li><p><strong>fix_sources</strong> (<em>dictionary</em>) – dictionary of pinned sources, with source type
+labels as keys and numbers (to pin to) as values. Defaults to fix_sources
+supplied to instantiate this class.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>mean of 1D marginalized posterior</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.MarginalizedPosterior.mean">
+<span class="sig-name descname"><span class="pre">mean</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">categories</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">posterior</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Default'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fix_sources</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Default'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.MarginalizedPosterior.mean" title="Permalink to this definition"></a></dt>
+<dd><p>Function to determine mean of posterior.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>categories</strong> (<em>list of strings</em>) – Keys <em>must</em> match labels of instances of <a class="reference internal" href="#spiir.search.p_astro.fgmc.SourceType" title="spiir.search.p_astro.fgmc.SourceType"><code class="xref py py-class docutils literal notranslate"><span class="pre">SourceType</span></code></a></p></li>
+<li><p><strong>posterior</strong> (<em>callabel function</em>) – User-defined counts posterior function. Must
+be constructed in the same way as the posterior function defined in this
+class, i.e, must take as input a dictionary of counts keyed on labels, etc.
+The “Default” is to use the posterior function defined in this class.</p></li>
+<li><p><strong>fix_sources</strong> (<em>dictionary</em>) – dictionary of pinned sources, with source type
+labels as keys and numbers (to pin to) as values. Defaults to fix_sources
+supplied to instantiate this class.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>float</em> – mean of posterior</p></li>
+<li><p>Example <code class="code docutils literal notranslate"><span class="pre">mean([&quot;BNS&quot;])</span></code></p></li>
+<li><p><em>returns &lt;lambda_BNS&gt;</em></p></li>
+<li><p>Example <code class="code docutils literal notranslate"><span class="pre">mean([&quot;BNS&quot;,&quot;BBH&quot;])</span></code></p></li>
+<li><p><em>returns &lt;lambda_BNS*lambda_BBH&gt;</em></p></li>
+<li><p><em>etc.</em></p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.MarginalizedPosterior.p_denominator">
+<span class="sig-name descname"><span class="pre">p_denominator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">trigger_idx</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">lambdas</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.MarginalizedPosterior.p_denominator" title="Permalink to this definition"></a></dt>
+<dd><p>Function returns <span class="math notranslate nohighlight">\(\Lambda_{\mathrm{terr}}w_\mathrm{terr}(j)+\frac{f(j)}{b(j)}\sum_{\alpha}\Lambda_{\alpha}w_{\alpha}(j))\)</span></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>trigger_idx</strong> (<em>int</em><em> or </em><em>numpy array of int</em>) – index of trigger whose p_astro value is sought</p></li>
+<li><p><strong>lambdas</strong> (<em>dict</em>) – Counts dictionary. Keys <em>must</em> match
+labels of instances of SourceType class.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>value of p_denominator</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>int or numpy array of ints</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.MarginalizedPosterior.p_integrand">
+<span class="sig-name descname"><span class="pre">p_integrand</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">trigger_idx</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">categories</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">lambdas</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.MarginalizedPosterior.p_integrand" title="Permalink to this definition"></a></dt>
+<dd><p>Function combines <cite>meth</cite>:p_numerator and <cite>meth</cite>:p_denominator,
+along with posterior, to construct the integrand for p(astro).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>trigger_idx</strong> (<em>int</em><em> or </em><em>numpy array of ints:</em>) – index (indices) of trigger(s) whose p(astro) value is sought
+indices correspond to those of f_divby_b numpy array</p></li>
+<li><p><strong>categories</strong> (<em>list</em>) – list of category labels. Labels <em>must</em> match
+labels of instances of <cite>class</cite>:SourceType.</p></li>
+<li><p><strong>lambdas</strong> (<em>dict</em>) – Counts dictionary. Keys <em>must</em> match
+labels of instances of <cite>class</cite>:SourceType.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Value of p_integrand</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float or numpy array of floats</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.MarginalizedPosterior.p_numerator">
+<span class="sig-name descname"><span class="pre">p_numerator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">trigger_idx</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">categories</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">lambdas</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.MarginalizedPosterior.p_numerator" title="Permalink to this definition"></a></dt>
+<dd><p>Function combines pastro_numerator and pterr_numerator,
+depending on list of categories over which p_astro is
+to be computed</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>trigger_idx</strong> (<em>int</em><em> or </em><em>numpy array of ints:</em>) – index (indices) of trigger(s) whose p(astro) value is sought
+indices map to the foreground/background values in the f_divby_b vector supplied</p></li>
+<li><p><strong>categories</strong> (<em>list</em>) – list of category labels. Labels <em>must</em> match
+labels of instances of SourceType class</p></li>
+<li><p><strong>lambdas</strong> (<em>dict</em>) – Counts dictionary. Keys <em>must</em> match
+labels of instances of SourceType class.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Value of p_numerator evaluated at lambdas.values()</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float or numpy array of floats</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.MarginalizedPosterior.pastro">
+<span class="sig-name descname"><span class="pre">pastro</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">trigger_idx</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">categories</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.MarginalizedPosterior.pastro" title="Permalink to this definition"></a></dt>
+<dd><p>Function invokes marginalize_gq to integrate p_integrand
+and thus determine p(astro)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>trigger_idx</strong> (<em>int</em><em> or </em><em>numpy array of ints</em>) – index (indices) of trigger(s) whose p_astro value is sought
+indices correspond to those of f_divby_b numpy array</p></li>
+<li><p><strong>categories</strong> (<em>list</em>) – Category labels. These labels <em>must</em> match
+those of the instances of the <a class="reference internal" href="#spiir.search.p_astro.fgmc.SourceType" title="spiir.search.p_astro.fgmc.SourceType"><code class="xref py py-class docutils literal notranslate"><span class="pre">SourceType</span></code></a>.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Value of p_astro</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float or numpy array of floats</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.MarginalizedPosterior.pastro_numerator">
+<span class="sig-name descname"><span class="pre">pastro_numerator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">trigger_idx</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">categories</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">lambdas</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.MarginalizedPosterior.pastro_numerator" title="Permalink to this definition"></a></dt>
+<dd><p>Function returns <span class="math notranslate nohighlight">\(\sum_{\alpha}\Lambda_{\alpha}w_{\alpha}(j)\frac{f(j)}{b(j)}\)</span></p>
+<p>for a trigger j.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>trigger_idx</strong> (<em>int</em><em> or </em><em>array of ints:</em>) – index (indices) of trigger(s) whose p(astro) value is sought
+indices map to the foreground/background values in the f_divby_b vector supplied</p></li>
+<li><p><strong>categories</strong> (<em>list</em>) – list of category labels. Labels <em>must</em> match
+labels of instances of SourceType class</p></li>
+<li><p><strong>lambdas</strong> (<em>dict</em>) – Counts dictionary. Keys <em>must</em> match
+labels of instances of <a class="reference internal" href="#spiir.search.p_astro.fgmc.SourceType" title="spiir.search.p_astro.fgmc.SourceType"><code class="xref py py-class docutils literal notranslate"><span class="pre">SourceType</span></code></a>.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Value of pastro_numerator evaluated at lambdas.values()</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.MarginalizedPosterior.pastro_update">
+<span class="sig-name descname"><span class="pre">pastro_update</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">categories</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bayesfac_dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mean_values_dict</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.MarginalizedPosterior.pastro_update" title="Permalink to this definition"></a></dt>
+<dd><blockquote>
+<div><p>Function returns pastro of new candidate event(s),
+given posterior constructed from events not involving
+the new candidate event(s).</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>categories</strong> (<em>list</em>) – Category labels. These labels <em>must</em> match
+those of the instances of the SourceType
+class.</p></li>
+<li><p><strong>bayesfac_dict</strong> (<em>dictionary</em>) – Bayesfactor values of the new candidate event,
+keyed on SourceType labels. There should be a
+value associated with each astrophysical SourceType
+used to construct the FGMC posterior.</p></li>
+<li><p><strong>mean_values_dict</strong> (<em>dictionary</em>) – Mean values of Poisson expected counts of each
+astrophysical SourceType. There should be a
+value associated with each astrophysical SourceType
+used to construct the FGMC posterior.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Value of p_astro</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float or numpy array of floats</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.MarginalizedPosterior.posterior">
+<span class="sig-name descname"><span class="pre">posterior</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">lambdas</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.MarginalizedPosterior.posterior" title="Permalink to this definition"></a></dt>
+<dd><p>FGMC Counts Posterior function. Takes dictionary of
+counts. Keys <em>must</em> match labels of instances
+of <a class="reference internal" href="#spiir.search.p_astro.fgmc.SourceType" title="spiir.search.p_astro.fgmc.SourceType"><code class="xref py py-class docutils literal notranslate"><span class="pre">SourceType</span></code></a>.</p>
+<p>Posterior can have any dimensionality up to max allowable
+dimensionality, as determined by the number of SourceType
+instances passed to the MarginalizedPosterior class.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>lambdas</strong> (<em>dict</em>) – counts:value dictionary pairs.
+Keys <em>must</em> match labels of instances of SourceType
+class.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>float</em> – posterior evaluated at values supplied in the lambda dictionary</p></li>
+<li><p><strong>Example</strong> (<code class="code docutils literal notranslate"><span class="pre">posterior(BNS=5)</span></code>)</p></li>
+<li><p><em>This will give the value for the</em></p></li>
+<li><p><em>corresponding 1-dimensional marginalized posterior</em></p></li>
+<li><p><strong>Example</strong> (<code class="code docutils literal notranslate"><span class="pre">posterior(BBH=1,NSBH=3)</span></code>)</p></li>
+<li><p><em>This will give the value for the</em></p></li>
+<li><p><em>corresponding 2-dimensional marginalized posterior.</em></p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.MarginalizedPosterior.pterr_numerator">
+<span class="sig-name descname"><span class="pre">pterr_numerator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">trigger_idx</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lambda_terr</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.MarginalizedPosterior.pterr_numerator" title="Permalink to this definition"></a></dt>
+<dd><p>Function returns <span class="math notranslate nohighlight">\(\Lambda_{\mathrm{terr}}w_{\mathrm{terr}}(j)\)</span>
+for a trigger j.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>trigger_idx</strong> (<em>int</em><em> or </em><em>array of ints:</em>) – index (indices) of trigger(s) whose p(astro) value is sought
+indices map to the foreground/background values in the f_divby_b vector supplied</p></li>
+<li><p><strong>lambda_terr</strong> (<em>float</em>) – value of terrestrial count</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Value of pterr_numerator evaluated at lambda_terr</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.fgmc.</span></span><span class="sig-name descname"><span class="pre">Posterior</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">f_divby_b</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prior_type</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">terr_source</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fix_sources</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">{}</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">buff</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1e-15</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mcmc</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">astro_sources</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#spiir.search.p_astro.fgmc.CountPosteriorElements" title="spiir.search.p_astro.fgmc.CountPosteriorElements"><code class="xref py py-class docutils literal notranslate"><span class="pre">CountPosteriorElements</span></code></a></p>
+<p>Class that constructs the <strong>FGMC</strong> counts posterior.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.args_fixed">
+<span class="sig-name descname"><span class="pre">args_fixed</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.args_fixed" title="Permalink to this definition"></a></dt>
+<dd><p>list of object instances whose labels match
+keys of <code class="docutils literal notranslate"><span class="pre">fix_sources</span></code> dictionary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.args_free">
+<span class="sig-name descname"><span class="pre">args_free</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.args_free" title="Permalink to this definition"></a></dt>
+<dd><p>list of object instances whose labels do not
+match the keys of fix_sources dictionary.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.arg_terr">
+<span class="sig-name descname"><span class="pre">arg_terr</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.arg_terr" title="Permalink to this definition"></a></dt>
+<dd><p>pertaining to the terrestrial source</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#spiir.search.p_astro.fgmc.SourceType" title="spiir.search.p_astro.fgmc.SourceType"><code class="xref py py-class docutils literal notranslate"><span class="pre">SourceType</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.args_astro">
+<span class="sig-name descname"><span class="pre">args_astro</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.args_astro" title="Permalink to this definition"></a></dt>
+<dd><p>instances of <a class="reference internal" href="#spiir.search.p_astro.fgmc.SourceType" title="spiir.search.p_astro.fgmc.SourceType"><code class="xref py py-class docutils literal notranslate"><span class="pre">SourceType</span></code></a> that correspond to
+astrophysical categories.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>tuple</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.keys_all">
+<span class="sig-name descname"><span class="pre">keys_all</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.keys_all" title="Permalink to this definition"></a></dt>
+<dd><p>list of labels of instances of all <a class="reference internal" href="#spiir.search.p_astro.fgmc.SourceType" title="spiir.search.p_astro.fgmc.SourceType"><code class="xref py py-class docutils literal notranslate"><span class="pre">SourceType</span></code></a> instances.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.key_terr">
+<span class="sig-name descname"><span class="pre">key_terr</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.key_terr" title="Permalink to this definition"></a></dt>
+<dd><p>subset of <code class="docutils literal notranslate"><span class="pre">key_all</span></code> with terrestrial source type</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.keys_astro">
+<span class="sig-name descname"><span class="pre">keys_astro</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.keys_astro" title="Permalink to this definition"></a></dt>
+<dd><p>subset of <code class="docutils literal notranslate"><span class="pre">key_all</span></code> with astrophysical source type</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.keys_fixed">
+<span class="sig-name descname"><span class="pre">keys_fixed</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.keys_fixed" title="Permalink to this definition"></a></dt>
+<dd><p>list of labels of pinned <a class="reference internal" href="#spiir.search.p_astro.fgmc.SourceType" title="spiir.search.p_astro.fgmc.SourceType"><code class="xref py py-class docutils literal notranslate"><span class="pre">SourceType</span></code></a> instances.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.keys_free">
+<span class="sig-name descname"><span class="pre">keys_free</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.keys_free" title="Permalink to this definition"></a></dt>
+<dd><p>list of labels of free <a class="reference internal" href="#spiir.search.p_astro.fgmc.SourceType" title="spiir.search.p_astro.fgmc.SourceType"><code class="xref py py-class docutils literal notranslate"><span class="pre">SourceType</span></code></a> instances.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.n">
+<span class="sig-name descname"><span class="pre">n</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.n" title="Permalink to this definition"></a></dt>
+<dd><p>number of terms in the <cite>gauss-laguerre</cite> and <cite>gauss-hermite</cite>
+quadrature integrals, hard coded to 20.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.N">
+<span class="sig-name descname"><span class="pre">N</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.N" title="Permalink to this definition"></a></dt>
+<dd><p>number of candidate events</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.roots">
+<span class="sig-name descname"><span class="pre">roots</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.roots" title="Permalink to this definition"></a></dt>
+<dd><p>abcissa of <cite>gauss-laguerre</cite> quadrature</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>iter</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.weights">
+<span class="sig-name descname"><span class="pre">weights</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.weights" title="Permalink to this definition"></a></dt>
+<dd><p>weights of <cite>gauss-laguerre</cite> quadrature</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>iter</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.hroots">
+<span class="sig-name descname"><span class="pre">hroots</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.hroots" title="Permalink to this definition"></a></dt>
+<dd><p>abcissa of <cite>gauss-hermite</cite> quadrature</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>iter</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.hweights">
+<span class="sig-name descname"><span class="pre">hweights</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.hweights" title="Permalink to this definition"></a></dt>
+<dd><p>weights of <cite>gauss-hermite</cite> quadrature</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>iter</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.reg_const">
+<span class="sig-name descname"><span class="pre">reg_const</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.reg_const" title="Permalink to this definition"></a></dt>
+<dd><p>regularization constant to avoid numerical over/under flows</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.norm">
+<span class="sig-name descname"><span class="pre">norm</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.norm" title="Permalink to this definition"></a></dt>
+<dd><p>normalization constant for counts posterior, determined
+post regularization</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.terr_jacobian">
+<span class="sig-name descname"><span class="pre">terr_jacobian</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.terr_jacobian" title="Permalink to this definition"></a></dt>
+<dd><p>constant to be tacked on when integrating terrestrial counts via
+<cite>gauss-hermite</cite> quadrature
+This can only be done after variable transformation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.priorDict">
+<span class="sig-name descname"><span class="pre">priorDict</span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.priorDict" title="Permalink to this definition"></a></dt>
+<dd><p>dictionary of priors keyed on <em>Uniform</em> and <em>Jeffreys</em></p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.TerrVarTransform">
+<span class="sig-name descname"><span class="pre">TerrVarTransform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">shift_amount</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Default'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.TerrVarTransform" title="Permalink to this definition"></a></dt>
+<dd><p>Variable transformation for lambda_terr. Used when
+marginalizing over <code class="docutils literal notranslate"><span class="pre">lambda_terr</span></code> via Gauss-Hermite quadrature.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>float</em>) – Variable to be transformed</p></li>
+<li><p><strong>shift_amount</strong> (<em>float</em>) – If shift amount is <code class="docutils literal notranslate"><span class="pre">a</span></code>, function will transform
+a Gaussian with <code class="docutils literal notranslate"><span class="pre">mu=a</span></code>, <code class="docutils literal notranslate"><span class="pre">sigma=np.sqrt(a)</span></code>
+to a Gaussian that goes like <code class="docutils literal notranslate"><span class="pre">exp(-x**2)</span></code></p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>transformed variable</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.gaussianLogWeight">
+<span class="sig-name descname"><span class="pre">gaussianLogWeight</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">terr_count</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.gaussianLogWeight" title="Permalink to this definition"></a></dt>
+<dd><p>Function that returns the log of the Hermite weights:
+log(e^(-(x-N)^2/(2N)))</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>terr_count</strong> (<em>float</em>) – terrestrial count value</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>log of the Gaussian with mean and variance N</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.marginalize_gq">
+<span class="sig-name descname"><span class="pre">marginalize_gq</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">categories</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">shift_amount</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Default'</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">pinned_lambdas</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.marginalize_gq" title="Permalink to this definition"></a></dt>
+<dd><p>Function to marginalize posterior on counts using Gaussian quadrature
+Gauss-Laguerre for marginalization over astrophysical counts
+Gauss-Hermite for marginalization over terrestrial counts</p>
+<p class="rubric">Notes</p>
+<p>Astrophyical Counts Marginalization (Gauss-Laguerre Quadrature):</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(f(x) = P(x)e^{-x}\)</span></p>
+<p><span class="math notranslate nohighlight">\(\int_{0}^{\infty}f(x)dx = \sum_{i=1}^{n}w_iP(r_i)
+= \sum_{i=1}^{n}e^{\log(w_i)+\log(P(r_i))}\)</span></p>
+</div></blockquote>
+<p>where <span class="math notranslate nohighlight">\(w_i, r_i\)</span> are the Gauss-Laguerre weights and abscissa.</p>
+<p>Terrestrial Counts Marginalization (Gauss-Hermite):</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(f(x) = P(x)e^{-x^2}\)</span></p>
+<p><span class="math notranslate nohighlight">\(\int_{-\infty}^{+\infty}f(x)dx = \sum_{i=1}^{n}w_iP(r_i)
+= \sum_{i=1}^{n}e^{\log(w_i)+\log(P(r_i))}\)</span></p>
+</div></blockquote>
+<p>where <span class="math notranslate nohighlight">\(w_i, r_i\)</span> are the Gauss-Hermite weights and abscissa.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>func</strong> (<em>callable</em>) – log of function to be marginalized divided by the Gauss-Laguerre
+weighting factor.</p></li>
+<li><p><strong>categories</strong> (<em>list</em>) – list of source types to be marginalized over. Strings <em>must</em>
+match labels of instances of SourceType.</p></li>
+<li><p><strong>shift_amount</strong> (<em>float</em>) – same as shift amount in <a class="reference internal" href="#spiir.search.p_astro.fgmc.Posterior.TerrVarTransform" title="spiir.search.p_astro.fgmc.Posterior.TerrVarTransform"><code class="xref py py-meth docutils literal notranslate"><span class="pre">TerrVarTransform()</span></code></a>,
+used for marginalizing over lambda_terr</p></li>
+<li><p><strong>pinned_lambdas</strong> (<em>dict</em>) – values of lambdas that are not to be marginalized over.
+keys <em>must</em> match labels of instances of SourceType class.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of values, which when exponentiated and summed,
+give the value of the marginalized posterior.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.normalize">
+<span class="sig-name descname"><span class="pre">normalize</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.normalize" title="Permalink to this definition"></a></dt>
+<dd><p>Function to normalize FGMC posterior.
+This is simply the sum of the array (exponentiated)
+returned by the regularize function,
+with the regularization constant removed.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.poissonLogWeight">
+<span class="sig-name descname"><span class="pre">poissonLogWeight</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">lambdas</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.poissonLogWeight" title="Permalink to this definition"></a></dt>
+<dd><p>Function that returns the log of the Poisson weights: log(e^(-x)) = -x</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>lambdas</strong> (<em>dict</em>) – dictionary of counts and their values</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>log of the Poisson weights</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.priorJeffreys">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">priorJeffreys</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">lambdas</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.priorJeffreys" title="Permalink to this definition"></a></dt>
+<dd><p>Jeffreys Prior on Counts. Takes dictionary of
+counts. Keys <em>must</em> match labels of instances
+of SourceType class.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.priorUniform">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">priorUniform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">lambdas</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.priorUniform" title="Permalink to this definition"></a></dt>
+<dd><p>Uniform Prior on Counts. Takes dictionary of
+counts. Keys <em>must</em> match labels of instances
+of SourceType class.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.reduced_log_likelihood_astro">
+<span class="sig-name descname"><span class="pre">reduced_log_likelihood_astro</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">lambdas</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.reduced_log_likelihood_astro" title="Permalink to this definition"></a></dt>
+<dd><p>The log of the FGMC posterior divided by
+(np.exp(-np.sum(lambdas))*((N**N)*exp(-N)))
+Takes the lambdas as input variables. One of the
+lambdas <em>must</em> be <code class="docutils literal notranslate"><span class="pre">lambda_terr</span></code>.
+Also, the keys on lambdas <em>must</em> match the labels of
+the <a class="reference internal" href="#spiir.search.p_astro.fgmc.SourceType" title="spiir.search.p_astro.fgmc.SourceType"><code class="xref py py-class docutils literal notranslate"><span class="pre">SourceType</span></code></a> instances.
+So, evaluating the reduced posterior at <code class="docutils literal notranslate"><span class="pre">lambda_bns</span> <span class="pre">=</span> <span class="pre">5</span></code>
+will need to be passed as BNS=5, if “BNS” is the label of
+the corresponding instance of SourceType. Returns
+the value of the reduced log posterior for a set of lambda values.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.reduced_log_likelihood_terr">
+<span class="sig-name descname"><span class="pre">reduced_log_likelihood_terr</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">lambdas</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.reduced_log_likelihood_terr" title="Permalink to this definition"></a></dt>
+<dd><p>The log of the FGMC posterior divided by
+(np.exp(-np.sum(lambdas))*lambda_terr**N)
+Takes the lambdas as input variables. One of the lambdas
+<em>must</em> be <code class="docutils literal notranslate"><span class="pre">lambda_terr</span></code>.
+Also, the keys on lambdas <em>must</em> match the labels of the
+<a class="reference internal" href="#spiir.search.p_astro.fgmc.SourceType" title="spiir.search.p_astro.fgmc.SourceType"><code class="xref py py-class docutils literal notranslate"><span class="pre">SourceType</span></code></a> instances.</p>
+<p>Evaluating the reduced posterior at <code class="docutils literal notranslate"><span class="pre">lambda_bns</span> <span class="pre">=</span> <span class="pre">5</span></code>
+will need to be passed as BNS=5, if “BNS” is the label of
+the corresponding instance of SourceType.
+Returns the value of the reduced log posterior for a
+set of lambda values.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.Posterior.regularize">
+<span class="sig-name descname"><span class="pre">regularize</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.Posterior.regularize" title="Permalink to this definition"></a></dt>
+<dd><p>Function to regularize FGMC posterior to avoid numerical
+over-/under-flows.
+It simply invokes marginalize_gq and applies it on the reduced
+log posterior. The regularization constant is simply the max value
+of the array returned by this function.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.SourceType">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.fgmc.</span></span><span class="sig-name descname"><span class="pre">SourceType</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">label</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">w_fgmc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ndarray</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.SourceType" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.TwoComponentFGMCToyModel">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.fgmc.</span></span><span class="sig-name descname"><span class="pre">TwoComponentFGMCToyModel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">far_threshold</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0.0001</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snr_threshold</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">8</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prior_type</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'Uniform'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.TwoComponentFGMCToyModel" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.TwoComponentFGMCToyModel.fit">
+<span class="sig-name descname"><span class="pre">fit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">far</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snr</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.TwoComponentFGMCToyModel.fit" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.TwoComponentFGMCToyModel.load_pkl">
+<span class="sig-name descname"><span class="pre">load_pkl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.TwoComponentFGMCToyModel.load_pkl" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.TwoComponentFGMCToyModel.predict">
+<span class="sig-name descname"><span class="pre">predict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">far</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ndarray</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snr</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ndarray</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ndarray</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.TwoComponentFGMCToyModel.predict" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.TwoComponentFGMCToyModel.save_pkl">
+<span class="sig-name descname"><span class="pre">save_pkl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.TwoComponentFGMCToyModel.save_pkl" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.approximate_toy_bayes_factor">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.fgmc.</span></span><span class="sig-name descname"><span class="pre">approximate_toy_bayes_factor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">far</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ndarray</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snr</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ndarray</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">far_threshold</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snr_threshold</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">ndarray</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.approximate_toy_bayes_factor" title="Permalink to this definition"></a></dt>
+<dd><p>Approximates the Bayes factor for a given candidate trigger using an approximate
+(“Toy”) model as in the ligo.p_astro_computation.get_f_over_b function.</p>
+<p>Source: <a class="reference external" href="https://git.ligo.org/lscsoft/p-astro/-/blob/master/ligo/p_astro_computation.py#L244">https://git.ligo.org/lscsoft/p-astro/-/blob/master/ligo/p_astro_computation.py#L244</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>far</strong> (<em>float</em>) – false alarm rate of the event</p></li>
+<li><p><strong>snr</strong> (<em>float</em>) – SNR of the event</p></li>
+<li><p><strong>far_star</strong> (<em>float</em>) – threshold false alarm rate</p></li>
+<li><p><strong>snr_star</strong> (<em>float</em>) – threshold SNR</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>bayes factor of event</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.choose_snr">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.fgmc.</span></span><span class="sig-name descname"><span class="pre">choose_snr</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">far</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snr</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pipeline</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">instruments</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">set</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">threshold_dict</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.choose_snr" title="Permalink to this definition"></a></dt>
+<dd><p>Given a pipeline and combination of instruments, return an SNR that does
+not exceed the SNR threshold for FARs below a FAR threshold. The SNR and
+FAR thresholds are read from a file containing these values keyed on
+pipelines and instrument combinations.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>far</strong> (<em>float</em>) – false alarm rate of the event</p></li>
+<li><p><strong>snr</strong> (<em>float</em>) – SNR of the event</p></li>
+<li><p><strong>pipeline</strong> (<em>string</em>) – pipeline that posted the event</p></li>
+<li><p><strong>instruments</strong> (<em>set</em>) – set of instruments that detected the event</p></li>
+<li><p><strong>threshold_dict</strong> (<em>dictionary</em>) – dictionary of FAR-SNR thresholds for instrument
+combinations</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>snr</strong> – limiting SNR value</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.closest_template">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.fgmc.</span></span><span class="sig-name descname"><span class="pre">closest_template</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">params</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">params_list</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.closest_template" title="Permalink to this definition"></a></dt>
+<dd><p>Associate event’s template to a template in the template bank.</p>
+<p>The assumed bank is the one used by Gstlal.
+Hence, for Gstlal events, the association should be exact, up to rounding errors.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>params</strong> (<em>tuple</em><em>[</em><em>float</em><em>, </em><em>...</em><em>]</em>) – intrinsic params of event template</p></li>
+<li><p><strong>params_list</strong> (<em>list</em><em>[</em><em>str</em><em>, </em><em>...</em><em>]</em><em>]</em>) – list of template bank’s template params</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>params of template in template bank matching event’s template</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.evaluate_p_astro_from_bayesfac">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.fgmc.</span></span><span class="sig-name descname"><span class="pre">evaluate_p_astro_from_bayesfac</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">astro_bayesfac</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mean_values_dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mass1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mass2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">spin1z</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">spin2z</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_bins</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">activation_counts</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.fgmc.evaluate_p_astro_from_bayesfac" title="Permalink to this definition"></a></dt>
+<dd><p>Evaluates <cite>p_astro</cite> for a new event using Bayes factor, masses, and number
+of astrophysical categories. Invoked with every new GraceDB entry.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>astro_bayesfac</strong> (<em>float</em>) – astrophysical Bayes factor</p></li>
+<li><p><strong>mean_values_dict</strong> (<em>dictionary</em>) – mean values of Poisson counts</p></li>
+<li><p><strong>mass1</strong> (<em>float</em>) – event mass1</p></li>
+<li><p><strong>mass2</strong> (<em>float</em>) – event mass2</p></li>
+<li><p><strong>spin1z</strong> (<em>float</em>) – event spin1z</p></li>
+<li><p><strong>spin2z</strong> (<em>float</em>) – event spin2z</p></li>
+<li><p><strong>url_weights_key</strong> (<em>str</em>) – url config key pointing to weights file</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>p_astro</strong> – p_astro for all source categories</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dictionary</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.make_weights_from_hardcuts">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.fgmc.</span></span><span class="sig-name descname"><span class="pre">make_weights_from_hardcuts</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mass1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mass2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.make_weights_from_hardcuts" title="Permalink to this definition"></a></dt>
+<dd><p>Construct binary weights from component masses based on cuts in component
+mass space that define astrophysical source categories. To be used for
+MBTA, PyCBC and SPIIR.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>mass1</strong> (<em>float</em>) – heavier component mass of the event</p></li>
+<li><p><strong>mass2</strong> (<em>float</em>) – lighter component mass of the event</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>a_bns, a_bbh, a_nshb, a_mg</strong> – binary weights (i.e, 1 or 0)</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>floats</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.make_weights_from_histograms">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.fgmc.</span></span><span class="sig-name descname"><span class="pre">make_weights_from_histograms</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mass1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mass2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">spin1z</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">spin2z</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_bins</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">activation_counts</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.make_weights_from_histograms" title="Permalink to this definition"></a></dt>
+<dd><p>Construct binary weights from bin number provided by GstLAL, and a weights
+matrix pre-constructed and stored in a file, to be read from a url. The
+weights are keyed on template parameters of Gstlal’s template bank. If that
+doesn’t work, construct binary weights.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>mass1</strong> (<em>float</em>) – heavier component mass of the event</p></li>
+<li><p><strong>mass2</strong> (<em>float</em>) – lighter component mass of the event</p></li>
+<li><p><strong>spin1z</strong> (<em>float</em>) – z component spin of heavier mass</p></li>
+<li><p><strong>spin2z</strong> (<em>float</em>) – z component spin of lighter mass</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>a_hat_bns, a_hat_bbh, a_hat_nsbh, a_hat_mg</strong> – mass-based template weights</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>floats</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.fgmc.p_astro_update">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.fgmc.</span></span><span class="sig-name descname"><span class="pre">p_astro_update</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">category</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">event_bayesfac_dict</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mean_values_dict</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#spiir.search.p_astro.fgmc.p_astro_update" title="Permalink to this definition"></a></dt>
+<dd><p>Compute <cite>p_astro</cite> for a new event using mean values of Poisson expected
+counts constructed from all the previous events. Invoked with every new
+GraceDB entry.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>category</strong> (<em>string</em>) – source category</p></li>
+<li><p><strong>event_bayesfac_dict</strong> (<em>dictionary</em>) – event Bayes factors</p></li>
+<li><p><strong>mean_values_dict</strong> (<em>dictionary</em>) – mean values of Poisson counts</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>p_astro by source category</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-spiir.search.p_astro.mass_contour"></span><p>Module for source probability estimation and and plotting for the “mchirp_area”
+method as proposed by Villa-Ortega et. al. (2020).</p>
+<p>Initial code by A. Curiel Barroso, August 2019
+Modified by V. Villa-Ortega, January 2020, March 2021
+Modified by Daniel Tang for SPIIR March 2022</p>
+<p>Code forked from PyCBC for SPIIR development (March 2022)
+Source: <a class="reference external" href="https://github.com/gwastro/pycbc/blob/master/pycbc/mchirp_area.py">https://github.com/gwastro/pycbc/blob/master/pycbc/mchirp_area.py</a>
+Additional edits drawn from prior work done by V. Villa-Ortega:
+<a class="reference external" href="https://github.com/veronica-villa/source_probabilities_estimation_pycbclive">https://github.com/veronica-villa/source_probabilities_estimation_pycbclive</a></p>
+<dl class="py class">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.MassContourModel">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.mass_contour.</span></span><span class="sig-name descname"><span class="pre">MassContourModel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">m0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">m_bounds</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">(1.0,</span> <span class="pre">45.0)</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mgap_bounds</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">(3.0,</span> <span class="pre">5.0)</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group_mgap</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lal_cosmology</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.MassContourModel" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py property">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.MassContourModel.coefficients">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">coefficients</span></span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.MassContourModel.coefficients" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.MassContourModel.fit">
+<span class="sig-name descname"><span class="pre">fit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bayestar_distances</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bayestar_stds</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eff_distances</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snrs</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">m0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.MassContourModel.fit" title="Permalink to this definition"></a></dt>
+<dd><p>Fits a MassContour model with equal length arrays for BAYESTAR luminosity
+distances against corresponding SNRs and (minimum) effective distances
+recovered by a gravitational wave search pipeline.</p>
+<p>The fitted coefficients are saved to the model instance’s attributes as a0, b0,
+b1, and m0; and they can be accessed conveniently via the self.coefficients
+property. If m0 is provided but self.m0 is already initialised, m0 will be
+overwritten with the new value.</p>
+<p>This function uses numpy’s Polynomial function to fit the coefficients for
+the mass contour model - specifically for estimating luminosity distance
+uncertainty (standard deviation) as a function of the estimated BAYESTAR
+luminosty distance and the recovered trigger Signal to Noise (SNR) ratios.</p>
+<p>See: <a class="reference external" href="https://numpy.org/doc/stable/reference/routines.polynomials.html">https://numpy.org/doc/stable/reference/routines.polynomials.html</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>bayestar_distances</strong> (<em>np.ndarray</em>) – An array of BAYESTAR approximated luminosity distances as returned by the
+ligo.skymap BAYESTAR algorithm.</p></li>
+<li><p><strong>bayestar_stds</strong> (<em>np.ndarray</em>) – An array of BAYESTAR approximated luminosity distance standard deviations
+as returned by the ligo.skymap BAYESTAR algorithm.</p></li>
+<li><p><strong>eff_distances</strong> (<em>np.ndarray</em>) – An array of trigger effective distances recovered from a search pipeline.</p></li>
+<li><p><strong>snrs</strong> (<em>np.ndarray</em>) – An array of trigger SNR values recovered from a search pipeline.</p></li>
+<li><p><strong>m0</strong> (<em>float</em><em> | </em><em>None</em>) – A constant that defines the uncertainty in chirp mass.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.MassContourModel.load_json">
+<span class="sig-name descname"><span class="pre">load_json</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.MassContourModel.load_json" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.MassContourModel.load_pkl">
+<span class="sig-name descname"><span class="pre">load_pkl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.MassContourModel.load_pkl" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.MassContourModel.predict">
+<span class="sig-name descname"><span class="pre">predict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mchirp</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snr</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eff_dist</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">truncate_lower_dist</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0.0003</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.MassContourModel.predict" title="Permalink to this definition"></a></dt>
+<dd><p>Computes the different probabilities that a candidate event belongs to each
+CBC source class according to search.classify.mchirp_areas.calc_probabilities.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>mchirp</strong> (<em>float</em>) – The source frame chirp mass.</p></li>
+<li><p><strong>snr</strong> (<em>float</em>) – The coincident signal-to-noise ratio (SNR)</p></li>
+<li><p><strong>eff_distance</strong> (<em>float</em>) – The estimated effective distance to the event,
+usually taken as the minimum across all coincident detectors.</p></li>
+<li><p><strong>truncate_lower_dist</strong> (<em>float</em><em> | </em><em>None</em>) – If provided, takes the ceiling of truncate_lower_dist and the estimated
+lower uncertainty bound for distance to prevent negative or unrealistic
+distance estimates.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The astrophysical source probabilities for each class.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, float]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.MassContourModel.save_json">
+<span class="sig-name descname"><span class="pre">save_json</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">indent</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">4</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.MassContourModel.save_json" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.MassContourModel.save_pkl">
+<span class="sig-name descname"><span class="pre">save_pkl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bytes</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PathLike</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.MassContourModel.save_pkl" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.calc_areas">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.mass_contour.</span></span><span class="sig-name descname"><span class="pre">calc_areas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mchirp</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mchirp_std</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">z</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">z_std</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">m_bounds</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mgap_bounds</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group_mgap</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.calc_areas" title="Permalink to this definition"></a></dt>
+<dd><p>Computes the area inside the lines of the second component mass as a
+function of the first component mass for the two extreme valuesmsrc, msrc_std</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>mchirp</strong> (<em>float</em>) – The detector frame chirp mass.</p></li>
+<li><p><strong>mchirp_std</strong> (<em>float</em>) – The uncertainty (standard deviation) in the chirp mass.</p></li>
+<li><p><strong>z</strong> (<em>float</em>) – The estimated redshift between detector and source frame of the event.</p></li>
+<li><p><strong>z_std</strong> (<em>float</em>) – The uncertainty (standard deviation) in the estimated redshift.</p></li>
+<li><p><strong>m_bounds</strong> (<em>tuple</em><em>[</em><em>float</em><em>, </em><em>float</em><em>]</em>) – The bounds on all possible component masses (let m1 = m2).</p></li>
+<li><p><strong>mgap_bounds</strong> (<em>tuple</em><em>[</em><em>float</em><em>, </em><em>float</em><em>]</em>) – The bounds on the mass gap category (max NS &amp; min BH mass).</p></li>
+<li><p><strong>group_mgap</strong> (<em>bool</em>) – If True, aggregates Mass Gap from BH+Gap, Gap+NS, and Gap+Gap.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The area covered by each source class within a contour on the mass plane.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, float]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.calc_probabilities">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.mass_contour.</span></span><span class="sig-name descname"><span class="pre">calc_probabilities</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">m0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mchirp</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">z</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">z_std</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">m_bounds</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mgap_bounds</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group_mgap</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.calc_probabilities" title="Permalink to this definition"></a></dt>
+<dd><p>Computes the astrophysical source probability of a given candidate event.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.estimate_redshift_from_distance">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.mass_contour.</span></span><span class="sig-name descname"><span class="pre">estimate_redshift_from_distance</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">distance</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">distance_std</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">truncate_lower_dist</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lal_cosmology</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.estimate_redshift_from_distance" title="Permalink to this definition"></a></dt>
+<dd><p>Takes values of distance and its uncertainty and returns a dictionary with
+estimates of the redshift and its uncertainty.</p>
+<p>Constants for lal_cosmology taken from Planck15_lal_cosmology() in
+<a class="reference external" href="https://git.ligo.org/lscsoft/pesummary/-/blob/master/pesummary/gw/cosmology.py">https://git.ligo.org/lscsoft/pesummary/-/blob/master/pesummary/gw/cosmology.py</a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>distance</strong> (<em>float</em>) – Estimated luminosity distance (D_L).</p></li>
+<li><p><strong>distance_std</strong> (<em>float</em>) – Uncertainty (standard deviation) associated with D_L.</p></li>
+<li><p><strong>lal_cosmology</strong> (<em>bool</em>) – If True, it uses the Planck15 cosmology model
+as defined in lalsuite instead of the astropy default.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>An estimate of redshift and its corresponding uncertainty.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>tuple[float, float]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.estimate_source_mass">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.mass_contour.</span></span><span class="sig-name descname"><span class="pre">estimate_source_mass</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mdet</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mdet_std</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">z</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">z_std</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.estimate_source_mass" title="Permalink to this definition"></a></dt>
+<dd><p>Takes values of redshift, redshift uncertainty, detector mass and its
+uncertainty and computes the source mass and its uncertainty.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>mdet</strong> (<em>float</em>) – The mass in the detector frame</p></li>
+<li><p><strong>mdet_std</strong> (<em>float</em>) – The uncertainty in detector frame source mass</p></li>
+<li><p><strong>z</strong> (<em>float</em>) – The estimated redshift value</p></li>
+<li><p><strong>z_std</strong> (<em>float</em>) – The uncertainty in redshift (standard deviation?)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The source mass and its uncertainty as a tuple.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>tuple[float, float]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.get_area">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.mass_contour.</span></span><span class="sig-name descname"><span class="pre">get_area</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msrc</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">msrc_std</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lim_h1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lim_h2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lim_v1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lim_v2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.get_area" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the area of the chirp mass contour in each region of the m1m2 plane
+taking horizontal and vertical limits of the region as arguments. (m1 &gt; m2).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>msrc</strong> (<em>float</em>) – Chirp mass in source frame</p></li>
+<li><p><strong>msrc_std</strong> (<em>float</em>) – The uncertainty (standard deviation) of the chirp mass</p></li>
+<li><p><strong>lim_h1</strong> (<em>float</em><em> | </em><em>str</em>) – float or “diagonal” - upper horizontal limit (limit on m2)</p></li>
+<li><p><strong>lim_h2</strong> (<em>float</em>) – lower horizontal limit of the region (limit on m2)</p></li>
+<li><p><strong>lim_v1</strong> (<em>float</em>) – right vertical limits of the region (limits on m1)</p></li>
+<li><p><strong>lim_v2</strong> (<em>float</em>) – left vertical limits of the region (limits on m1)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The area calculated within provided limits of the mass plane.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.get_source_colour">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.mass_contour.</span></span><span class="sig-name descname"><span class="pre">get_source_colour</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.get_source_colour" title="Permalink to this definition"></a></dt>
+<dd><p>Gets the class-based colour to maintain plotting consistency across classes.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.integrate_chirp_mass">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.mass_contour.</span></span><span class="sig-name descname"><span class="pre">integrate_chirp_mass</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mchirp</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">m_min</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">m_max</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.integrate_chirp_mass" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the integral of a component mass as a function of the mass of the other
+component, taking mchirp as an argument.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>mchirp</strong> (<em>float</em>) – The chirp mass value set as fixed</p></li>
+<li><p><strong>x_min</strong> (<em>float</em>) – The minimum m2 value</p></li>
+<li><p><strong>x_max</strong> (<em>float</em>) – The maximum m2 value</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The result of the integration of m2 over m1.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.plot_mass_contour_figure">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.mass_contour.</span></span><span class="sig-name descname"><span class="pre">plot_mass_contour_figure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mchirp</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mchirp_std</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">z</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">z_std</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mass_limits</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mass_bdary</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">figsize</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">(8,</span> <span class="pre">6)</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">xlims</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ylims</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Figure</span></span></span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.plot_mass_contour_figure" title="Permalink to this definition"></a></dt>
+<dd><p>Draws a full matplotlib Figure visualising the probability mass contour plane.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.plot_prob_pie_figure">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.mass_contour.</span></span><span class="sig-name descname"><span class="pre">plot_prob_pie_figure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">probabilities</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">figsize</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">(8,</span> <span class="pre">6)</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Figure</span></span></span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.plot_prob_pie_figure" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.predict_redshift">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.mass_contour.</span></span><span class="sig-name descname"><span class="pre">predict_redshift</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snr</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eff_distance</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lal_cosmology</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">truncate_lower_dist</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.predict_redshift" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="spiir.search.p_astro.mass_contour.predict_source_p_astro">
+<span class="sig-prename descclassname"><span class="pre">spiir.search.p_astro.mass_contour.</span></span><span class="sig-name descname"><span class="pre">predict_source_p_astro</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">m0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mchirp</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">snr</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eff_distance</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">m_bounds</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mgap_bounds</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group_mgap</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lal_cosmology</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">truncate_lower_dist</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#spiir.search.p_astro.mass_contour.predict_source_p_astro" title="Permalink to this definition"></a></dt>
+<dd><p>Computes the astrophysical source probability of a given candidate event.</p>
+<p>Computes the different probabilities that a candidate event belongs to
+each CBC source category taking as arguments the chirp mass, the
+coincident SNR and the effective distance, and estimating the
+chirp mass uncertainty, the luminosity distance (and its uncertainty)
+and the redshift (and its uncertainty). Probability is estimated to be
+directly proportional to the area of the corresponding CBC region.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>coefficients</strong> (<em>float</em>) – The estimated model coefficients of fitted mass/distance models.</p></li>
+<li><p><strong>mchirp</strong> (<em>float</em>) – The source frame chirp mass.</p></li>
+<li><p><strong>snr</strong> (<em>float</em>) – The coincident signal-to-noise ratio (SNR).</p></li>
+<li><p><strong>eff_distance</strong> (<em>float</em>) – The estimated effective distance, usually taken as the minimum across all
+coincident detectors.</p></li>
+<li><p><strong>m_bounds</strong> (<em>tuple</em><em>[</em><em>float</em><em>, </em><em>float</em><em>]</em>) – The upper and lower bounds for both component masses (m1 &gt;= m2).</p></li>
+<li><p><strong>mgap_bounds</strong> (<em>tuple</em><em>[</em><em>float</em><em>, </em><em>float</em><em>]</em>) – The boundaries that define the mass gap between BH and NS.</p></li>
+<li><p><strong>group_mgap</strong> (<em>bool</em>) – If True, aggregates Mass Gap from BH+Gap, Gap+NS, and Gap+Gap.</p></li>
+<li><p><strong>lal_cosmology</strong> (<em>bool</em>) – If True, it uses the Planck15 cosmology model as defined in lalsuite,
+instead of the astropy default.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The astrophysical source probabilities for each class.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict[str, float]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-spiir.search.p_astro">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-spiir.search.p_astro" title="Permalink to this heading"></a></h2>
+<p>SPIIR subpackage for astrophysical source classification, or “p_astro”.</p>
+<p>Each module in the SPIIR p_astro subpackage separates a particular concern or
+approach in estimating astrophysical source classification. Typically, we aim to
+provide the relevant operations for each approach as a set of functions in their
+respective modules.</p>
+<p>When models are composed together or fit with a set of default values, we construct one
+or more classes inside a submodule of p_astro.models that have the approach <cite>.fit()</cite>
+and <cite>.predict()</cite> methods, so they can be efficiently and interchangeably with eachother
+during testing and deployment.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="spiir.search.html" class="btn btn-neutral float-left" title="spiir.search package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="spiir.search.p_astro.models.html" class="btn btn-neutral float-right" title="spiir.search.p_astro.models package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Daniel Tang.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

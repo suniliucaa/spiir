@@ -1,0 +1,19 @@
+spiir.io.igwn.consumers package
+===============================
+
+Submodules
+----------
+
+
+.. automodule:: spiir.io.igwn.consumers.composite_mass_contour
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: spiir.io.igwn.consumers
+   :members:
+   :undoc-members:
+   :show-inheritance:
